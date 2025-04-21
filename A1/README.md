@@ -25,7 +25,7 @@ pip3 install matplotlib scipy numpy tqdm
 
 ### Task 1: Scaling of a Data Center
 
-**Objective:** 
+**Objective:** Model a simple data center where incoming data follows a Poisson process, and investigate how different arrival rates and processing times affect the waiting list length through simulation and plotting.
 
 **Steps:** Use the following commands to run the task:
 
@@ -39,7 +39,7 @@ jupyter notebook task1.ipynb
 
 ### Task 2: Synchronization of a Swarm
 
-**Objective:** 
+**Objective:** Simulate a swarm of fireflies synchronizing their flashing cycles without a central clock, exploring how local neighbor interactions and vicinity distances influence synchronization efficiency.
 
 **Steps:** Use the following commands to run the subtasks:
 
