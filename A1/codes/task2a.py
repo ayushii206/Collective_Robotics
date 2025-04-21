@@ -9,7 +9,7 @@ time_steps = 5000
 r_values = [0.05, 0.1, 0.5, 1.4]
 
 # Paths
-output_folder = "output/task2"  
+output_folder = "A1/output/task2"  
 os.makedirs(output_folder, exist_ok=True)  # Make sure output folder exists
 
 # Generating firefly positions
