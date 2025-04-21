@@ -1,5 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+
+# Paths
+output_folder = "A1/output/task2"  
+os.makedirs(output_folder, exist_ok=True)  # Make sure output folder exists
 
 # Constants
 N = 250
@@ -72,10 +77,14 @@ for r in r_values:
     print(f"Finished r={r:.3f}")
 
 # 7. Plot amplitude vs r
+title = "Average Flashing Amplitude vs Vicinity Distance"
 plt.figure(figsize=(12, 6))
 plt.plot(r_values, average_amplitudes, marker='o')
-plt.title("Average Flashing Amplitude vs Vicinity Distance")
+plt.title(title)
 plt.xlabel("Vicinity Distance r")
 plt.ylabel("Average Amplitude of Flash Cycle")
 plt.grid()
+# Save the plot
+filename = title.replace(' ', '_').replace('=', '').replace('(', '').replace(')', '') + '.png'
+plt.savefig(os.path.join(output_folder, filename))
 plt.show()
