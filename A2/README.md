@@ -18,3 +18,17 @@ If you only want to build the important packages (collective_robotics and stage_
 colcon build --symlink-install --packages-select collective_robotics stage_ros2
 ```
 
+to run the environment on one terminal using:
+
+```bash
+ros2 launch stage_ros2 demo.launch.py world:=cave
+```
+
+on the other terminal run any node for example :
+
+```bash
+ros2 run collective_robotics navigation
+```
+
+it should navigate in the environment
+
