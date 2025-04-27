@@ -1,7 +1,0 @@
-[console_scripts]
-go_to_goal = collective_robotics.move_to_goal:main
-navigation = collective_robotics.task1:main
-obstacle_avoid = collective_robotics.obstacle_avoidance:main
-vacum_bot = collective_robotics.vaccum_robot:main
-wall_follower = collective_robotics.wall_follower:main
-

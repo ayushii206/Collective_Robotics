@@ -1,3 +1,0 @@
-[console_scripts]
-robile_reach_goal = robile_reach_goal.robile_reach_goal:main
-
