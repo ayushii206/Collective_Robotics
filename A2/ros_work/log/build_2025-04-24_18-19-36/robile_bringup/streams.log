@@ -1,0 +1,16 @@
+[2.647s] Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/build --no-deps symlink_data
+[3.617s] running develop
+[4.298s] running egg_info
+[4.298s] writing robile_bringup.egg-info/PKG-INFO
+[4.299s] writing dependency_links to robile_bringup.egg-info/dependency_links.txt
+[4.299s] writing entry points to robile_bringup.egg-info/entry_points.txt
+[4.299s] writing requirements to robile_bringup.egg-info/requires.txt
+[4.299s] writing top-level names to robile_bringup.egg-info/top_level.txt
+[4.304s] reading manifest file 'robile_bringup.egg-info/SOURCES.txt'
+[4.305s] writing manifest file 'robile_bringup.egg-info/SOURCES.txt'
+[4.309s] running build_ext
+[4.309s] Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages/robile-bringup.egg-link (link to .)
+[4.311s] 
+[4.311s] Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup
+[4.311s] running symlink_data
+[4.413s] Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup' returned '0': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/build --no-deps symlink_data

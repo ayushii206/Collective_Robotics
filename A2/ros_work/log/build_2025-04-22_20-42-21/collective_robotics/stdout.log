@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/collective_robotics/collective_robotics.egg-info/PKG-INFO
+writing dependency_links to ../../build/collective_robotics/collective_robotics.egg-info/dependency_links.txt
+writing entry points to ../../build/collective_robotics/collective_robotics.egg-info/entry_points.txt
+writing requirements to ../../build/collective_robotics/collective_robotics.egg-info/requires.txt
+writing top-level names to ../../build/collective_robotics/collective_robotics.egg-info/top_level.txt
+reading manifest file '../../build/collective_robotics/collective_robotics.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/collective_robotics/collective_robotics.egg-info/SOURCES.txt'
+running build
+running build_py
+copying collective_robotics/task1.py -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build/lib/collective_robotics
+running install
+running install_lib
+copying /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build/lib/collective_robotics/task1.py -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics
+byte-compiling /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics/task1.py to task1.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/collective_robotics/collective_robotics.egg-info to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigation script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics
+writing list of installed files to '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/install.log'

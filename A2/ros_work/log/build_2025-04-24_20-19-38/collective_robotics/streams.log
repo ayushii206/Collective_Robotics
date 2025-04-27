@@ -1,0 +1,18 @@
+[1.972s] Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build --no-deps symlink_data
+[2.972s] running develop
+[3.679s] running egg_info
+[3.679s] writing collective_robotics.egg-info/PKG-INFO
+[3.680s] writing dependency_links to collective_robotics.egg-info/dependency_links.txt
+[3.680s] writing entry points to collective_robotics.egg-info/entry_points.txt
+[3.680s] writing requirements to collective_robotics.egg-info/requires.txt
+[3.681s] writing top-level names to collective_robotics.egg-info/top_level.txt
+[3.685s] reading manifest file 'collective_robotics.egg-info/SOURCES.txt'
+[3.691s] writing manifest file 'collective_robotics.egg-info/SOURCES.txt'
+[3.694s] running build_ext
+[3.695s] Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective-robotics.egg-link (link to .)
+[3.696s] Installing navigation script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics
+[3.697s] Installing obstacle_avoid script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics
+[3.698s] 
+[3.698s] Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics
+[3.698s] running symlink_data
+[3.795s] Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics' returned '0': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build --no-deps symlink_data

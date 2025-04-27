@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/collective_robotics/collective_robotics.egg-info
+writing ../../build/collective_robotics/collective_robotics.egg-info/PKG-INFO
+writing dependency_links to ../../build/collective_robotics/collective_robotics.egg-info/dependency_links.txt
+writing entry points to ../../build/collective_robotics/collective_robotics.egg-info/entry_points.txt
+writing requirements to ../../build/collective_robotics/collective_robotics.egg-info/requires.txt
+writing top-level names to ../../build/collective_robotics/collective_robotics.egg-info/top_level.txt
+writing manifest file '../../build/collective_robotics/collective_robotics.egg-info/SOURCES.txt'
+reading manifest file '../../build/collective_robotics/collective_robotics.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/collective_robotics/collective_robotics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build/lib
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build/lib/collective_robotics
+copying collective_robotics/__init__.py -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build/lib/collective_robotics
+running install
+running install_lib
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics
+copying /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build/lib/collective_robotics/__init__.py -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics
+byte-compiling /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/ament_index
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/ament_index/resource_index
+creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/ament_index/resource_index/packages
+copying resource/collective_robotics -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics
+running install_egg_info
+Copying ../../build/collective_robotics/collective_robotics.egg-info to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective_robotics-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/install.log'

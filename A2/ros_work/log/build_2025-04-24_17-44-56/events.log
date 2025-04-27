@@ -1,0 +1,939 @@
+[0.000000] (-) TimerEvent: {}
+[0.000917] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.001110] (collective_robotics) JobQueued: {'identifier': 'collective_robotics', 'dependencies': OrderedDict()}
+[0.001229] (robile_bringup) JobQueued: {'identifier': 'robile_bringup', 'dependencies': OrderedDict()}
+[0.001288] (robile_control_simple) JobQueued: {'identifier': 'robile_control_simple', 'dependencies': OrderedDict()}
+[0.001334] (robile_description) JobQueued: {'identifier': 'robile_description', 'dependencies': OrderedDict()}
+[0.001370] (robile_interfaces) JobQueued: {'identifier': 'robile_interfaces', 'dependencies': OrderedDict()}
+[0.001403] (robile_reach_goal) JobQueued: {'identifier': 'robile_reach_goal', 'dependencies': OrderedDict()}
+[0.001432] (robile_gazebo) JobQueued: {'identifier': 'robile_gazebo', 'dependencies': OrderedDict([('robile_description', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description')])}
+[0.001524] (robile_navigation) JobQueued: {'identifier': 'robile_navigation', 'dependencies': OrderedDict([('robile_interfaces', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces')])}
+[0.001556] (robile_description) JobStarted: {'identifier': 'robile_description'}
+[0.009302] (robile_interfaces) JobStarted: {'identifier': 'robile_interfaces'}
+[0.015850] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.022443] (collective_robotics) JobStarted: {'identifier': 'collective_robotics'}
+[0.039497] (robile_description) JobProgress: {'identifier': 'robile_description', 'progress': 'cmake'}
+[0.040139] (robile_description) Command: {'cmd': ['/usr/local/bin/cmake', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043327] (robile_interfaces) JobProgress: {'identifier': 'robile_interfaces', 'progress': 'cmake'}
+[0.044566] (robile_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046555] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.047331] (Stage) Command: {'cmd': ['/usr/local/bin/cmake', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.054957] (Stage) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.055467] (Stage) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.072217] (Stage) StderrLine: {'line': b'  CMake.\n'}
+[0.072389] (Stage) StderrLine: {'line': b'\n'}
+[0.072531] (Stage) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.072672] (Stage) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.072809] (Stage) StderrLine: {'line': b'\n'}
+[0.072942] (Stage) StderrLine: {'line': b'\x1b[0m\n'}
+[0.100085] (-) TimerEvent: {}
+[0.156348] (robile_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.167322] (robile_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.178085] (Stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200191] (-) TimerEvent: {}
+[0.269937] (robile_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.290654] (robile_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.291746] (robile_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.300285] (-) TimerEvent: {}
+[0.307155] (Stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.312374] (robile_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.336388] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400402] (-) TimerEvent: {}
+[0.413177] (robile_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.443793] (robile_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.453092] (robile_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.453695] (robile_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.454657] (robile_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.463120] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.472400] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.483659] (robile_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.484220] (robile_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.485116] (robile_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.492926] (robile_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500504] (-) TimerEvent: {}
+[0.517293] (Stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.518136] (Stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.519786] (Stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.531787] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600609] (-) TimerEvent: {}
+[0.603300] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.645145] (robile_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.646400] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.648287] (robile_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.658768] (robile_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.659077] (robile_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.680787] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.695882] (robile_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.696521] (robile_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.697907] (robile_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700722] (-) TimerEvent: {}
+[0.702813] (robile_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.719649] (Stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.720700] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.722779] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.725444] (Stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[0.726213] (Stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.726657] (Stage) StdoutLine: {'line': b'-- Installing Libraries to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/lib\n'}
+[0.727012] (Stage) StdoutLine: {'line': b'-- Installing Plugins to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/lib/Stage-4.3\n'}
+[0.728166] (Stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[0.729119] (Stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[0.753620] (Stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[0.800828] (-) TimerEvent: {}
+[0.801820] (Stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")\n'}
+[0.858643] (Stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")\n'}
+[0.900933] (-) TimerEvent: {}
+[0.940122] (robile_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.950708] (Stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")\n'}
+[0.981046] (Stage) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.30/Modules/FindOpenGL.cmake:415 (message):\n'}
+[0.981374] (Stage) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.982212] (Stage) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.982404] (Stage) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.982541] (Stage) StderrLine: {'line': b'\n'}
+[0.982737] (Stage) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.982869] (Stage) StderrLine: {'line': b'\n'}
+[0.982996] (Stage) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.983118] (Stage) StderrLine: {'line': b'\n'}
+[0.983230] (Stage) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.983342] (Stage) StderrLine: {'line': b'\n'}
+[0.983450] (Stage) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.983563] (Stage) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.983675] (Stage) StderrLine: {'line': b'\n'}
+[0.983783] (Stage) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.984023] (Stage) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.984235] (Stage) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.984435] (Stage) StderrLine: {'line': b'  /usr/local/share/cmake-3.30/Modules/FindFLTK.cmake:87 (find_package)\n'}
+[0.984633] (Stage) StderrLine: {'line': b'  CMakeLists.txt:100 (find_package)\n'}
+[0.984833] (Stage) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.985061] (Stage) StderrLine: {'line': b'\x1b[0m\n'}
+[0.987591] (Stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[1.001034] (-) TimerEvent: {}
+[1.006214] (robile_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.081545] (robile_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.101137] (-) TimerEvent: {}
+[1.154298] (robile_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.201239] (-) TimerEvent: {}
+[1.207596] (robile_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.286481] (robile_description) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.293245] (robile_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.295466] (robile_description) StdoutLine: {'line': b'-- Build files have been written to: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description\n'}
+[1.301444] (-) TimerEvent: {}
+[1.304704] (robile_description) CommandEnded: {'returncode': 0}
+[1.305377] (robile_description) JobProgress: {'identifier': 'robile_description', 'progress': 'build'}
+[1.305440] (robile_description) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description', '--', '-j4', '-l4'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.311623] (robile_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.339653] (robile_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.343258] (robile_description) CommandEnded: {'returncode': 0}
+[1.345686] (robile_description) JobProgress: {'identifier': 'robile_description', 'progress': 'install'}
+[1.353730] (robile_description) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.358946] (robile_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.359421] (robile_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.360605] (robile_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.362163] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_base.dae\n'}
+[1.368843] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_wheel.dae\n'}
+[1.375650] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/passive_caster_wheel/pivot.dae\n'}
+[1.382018] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/passive_caster_wheel/wheel.dae\n'}
+[1.388575] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/general_brick_housing.dae\n'}
+[1.394499] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid.dae\n'}
+[1.400501] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_blue.dae\n'}
+[1.401415] (Stage) StdoutLine: {'line': b'-- Found X11: /usr/include\n'}
+[1.401632] (-) TimerEvent: {}
+[1.402331] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.403228] (robile_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.406861] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_green.dae\n'}
+[1.412968] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_red.dae\n'}
+[1.419144] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_yellow.dae\n'}
+[1.425665] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/wheeled_brick_housing.dae\n'}
+[1.434500] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/sensors/hokuyo.dae\n'}
+[1.444305] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/sensors/hokuyo_convex.dae\n'}
+[1.451080] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/sensors/sick-lms1xx.dae\n'}
+[1.458176] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/2_wheel_config.urdf.xacro\n'}
+[1.459431] (robile_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.464726] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/4_wheel_config.urdf.xacro\n'}
+[1.471217] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/6_wheel_config.urdf.xacro\n'}
+[1.477583] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/robile3_config.urdf.xacro\n'}
+[1.485028] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/brick_housing.urdf.xacro\n'}
+[1.491838] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/common.xacro\n'}
+[1.498793] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive.urdf.xacro\n'}
+[1.501748] (-) TimerEvent: {}
+[1.505987] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive_wheel.urdf.xacro\n'}
+[1.508172] (robile_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.513440] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/materials.urdf.xacro\n'}
+[1.520981] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/passive_caster_wheel.urdf.xacro\n'}
+[1.527433] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_active_wheel_brick.urdf.xacro\n'}
+[1.541620] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_cpu_brick.urdf.xacro\n'}
+[1.547517] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.547838] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_empty_brick.urdf.xacro\n'}
+[1.548535] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.550092] (robile_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.554412] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_master_battery_brick.urdf.xacro\n'}
+[1.561146] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_passive_wheel_brick.urdf.xacro\n'}
+[1.572638] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_slave_battery_brick.urdf.xacro\n'}
+[1.579359] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/camera_front.gazebo.xacro\n'}
+[1.586068] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/camera_front.urdf.xacro\n'}
+[1.592950] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.gazebo.xacro\n'}
+[1.599341] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.urdf.xacro\n'}
+[1.601852] (-) TimerEvent: {}
+[1.606351] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx.urdf.xacro\n'}
+[1.613488] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx_mount.urdf.xacro\n'}
+[1.620578] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_robile.xacro\n'}
+[1.627457] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_robile_laser_scanner.xacro\n'}
+[1.635735] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_robile_laserscanner_camera.xacro\n'}
+[1.647062] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_ros_control.xacro\n'}
+[1.654991] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_ros_planar_move.xacro\n'}
+[1.662877] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/ament_index/resource_index/package_run_dependencies/robile_description\n'}
+[1.669567] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.670037] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/ament_index/resource_index/parent_prefix_path/robile_description\n'}
+[1.670529] (Stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.676753] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/ament_prefix_path.sh\n'}
+[1.682872] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/ament_prefix_path.dsv\n'}
+[1.689299] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/path.sh\n'}
+[1.696016] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/path.dsv\n'}
+[1.702015] (-) TimerEvent: {}
+[1.703227] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.bash\n'}
+[1.710126] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.sh\n'}
+[1.717481] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.zsh\n'}
+[1.724608] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.dsv\n'}
+[1.731863] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.dsv\n'}
+[1.738969] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/ament_index/resource_index/packages/robile_description\n'}
+[1.747833] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/cmake/robile_descriptionConfig.cmake\n'}
+[1.757309] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/cmake/robile_descriptionConfig-version.cmake\n'}
+[1.764410] (robile_description) StdoutLine: {'line': b'-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.xml\n'}
+[1.774015] (robile_description) CommandEnded: {'returncode': 0}
+[1.799769] (Stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.800009] (Stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.802258] (-) TimerEvent: {}
+[1.814910] (robile_description) JobEnded: {'identifier': 'robile_description', 'rc': 0}
+[1.815839] (robile_bringup) JobStarted: {'identifier': 'robile_bringup'}
+[1.902367] (-) TimerEvent: {}
+[1.937008] (Stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.937315] (Stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.002465] (-) TimerEvent: {}
+[2.086105] (Stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.086453] (Stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.102585] (-) TimerEvent: {}
+[2.190797] (Stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.202687] (-) TimerEvent: {}
+[2.255507] (Stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk\n'}
+[2.258834] (Stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[2.259582] (Stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage\n'}
+[2.260644] (Stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[2.271975] (Stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")\n'}
+[2.272828] (Stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[2.276106] (Stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[2.293367] (Stage) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.302787] (-) TimerEvent: {}
+[2.365128] (Stage) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.373176] (Stage) StdoutLine: {'line': b'-- Build files have been written to: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage\n'}
+[2.402920] (-) TimerEvent: {}
+[2.503217] (-) TimerEvent: {}
+[2.581663] (Stage) CommandEnded: {'returncode': 0}
+[2.582777] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[2.583432] (Stage) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage', '--', '-j4', '-l4'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[2.588902] (collective_robotics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en', 'USER': 'student', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'student', 'DESKTOP_AUTOSTART_ID': '107e7aa9df658d62ca174539594763716500000091520024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'SAL_USE_VCLPLUGIN': 'kf5', 'PATH': '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/student/ros2_network_config.xml', 'GDM_LANG': 'en', 'PAPERSIZE': 'a4', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[2.603347] (-) TimerEvent: {}
+[2.630912] (Stage) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[2.649819] (robile_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.666762] (Stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[2.670814] (Stage) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[2.671948] (Stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[2.703448] (-) TimerEvent: {}
+[2.803842] (-) TimerEvent: {}
+[2.904339] (-) TimerEvent: {}
+[3.004794] (-) TimerEvent: {}
+[3.105276] (-) TimerEvent: {}
+[3.205732] (-) TimerEvent: {}
+[3.306123] (-) TimerEvent: {}
+[3.406543] (-) TimerEvent: {}
+[3.506958] (-) TimerEvent: {}
+[3.607382] (-) TimerEvent: {}
+[3.707748] (-) TimerEvent: {}
+[3.808141] (-) TimerEvent: {}
+[3.908490] (-) TimerEvent: {}
+[4.008841] (-) TimerEvent: {}
+[4.109337] (-) TimerEvent: {}
+[4.209705] (-) TimerEvent: {}
+[4.278633] (robile_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en', 'USER': 'student', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'student', 'DESKTOP_AUTOSTART_ID': '107e7aa9df658d62ca174539594763716500000091520024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'SAL_USE_VCLPLUGIN': 'kf5', 'PATH': '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/student/ros2_network_config.xml', 'GDM_LANG': 'en', 'PAPERSIZE': 'a4', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[4.309819] (-) TimerEvent: {}
+[4.350308] (collective_robotics) StdoutLine: {'line': b'running develop\n'}
+[4.409928] (-) TimerEvent: {}
+[4.510421] (-) TimerEvent: {}
+[4.610955] (-) TimerEvent: {}
+[4.711466] (-) TimerEvent: {}
+[4.811971] (-) TimerEvent: {}
+[4.912495] (-) TimerEvent: {}
+[5.012890] (-) TimerEvent: {}
+[5.113270] (-) TimerEvent: {}
+[5.213786] (-) TimerEvent: {}
+[5.314296] (-) TimerEvent: {}
+[5.414824] (-) TimerEvent: {}
+[5.515375] (-) TimerEvent: {}
+[5.536727] (collective_robotics) StdoutLine: {'line': b'running egg_info\n'}
+[5.537138] (collective_robotics) StdoutLine: {'line': b'writing collective_robotics.egg-info/PKG-INFO\n'}
+[5.544704] (collective_robotics) StdoutLine: {'line': b'writing dependency_links to collective_robotics.egg-info/dependency_links.txt\n'}
+[5.545040] (collective_robotics) StdoutLine: {'line': b'writing entry points to collective_robotics.egg-info/entry_points.txt\n'}
+[5.545304] (collective_robotics) StdoutLine: {'line': b'writing requirements to collective_robotics.egg-info/requires.txt\n'}
+[5.545577] (collective_robotics) StdoutLine: {'line': b'writing top-level names to collective_robotics.egg-info/top_level.txt\n'}
+[5.549818] (collective_robotics) StdoutLine: {'line': b"reading manifest file 'collective_robotics.egg-info/SOURCES.txt'\n"}
+[5.557781] (collective_robotics) StdoutLine: {'line': b"writing manifest file 'collective_robotics.egg-info/SOURCES.txt'\n"}
+[5.561000] (collective_robotics) StdoutLine: {'line': b'running build_ext\n'}
+[5.561845] (collective_robotics) StdoutLine: {'line': b'Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective-robotics.egg-link (link to .)\n'}
+[5.563543] (collective_robotics) StdoutLine: {'line': b'Installing navigation script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[5.564433] (collective_robotics) StdoutLine: {'line': b'Installing obstacle_avoid script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[5.565769] (collective_robotics) StdoutLine: {'line': b'\n'}
+[5.568094] (collective_robotics) StdoutLine: {'line': b'Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics\n'}
+[5.568604] (collective_robotics) StdoutLine: {'line': b'running symlink_data\n'}
+[5.569140] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/resource/collective_robotics -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/ament_index/resource_index/packages\n'}
+[5.569786] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/package.xml -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics\n'}
+[5.615497] (-) TimerEvent: {}
+[5.715920] (-) TimerEvent: {}
+[5.785554] (collective_robotics) CommandEnded: {'returncode': 0}
+[5.812813] (collective_robotics) JobEnded: {'identifier': 'collective_robotics', 'rc': 0}
+[5.813871] (robile_control_simple) JobStarted: {'identifier': 'robile_control_simple'}
+[5.825042] (-) TimerEvent: {}
+[5.825339] (robile_bringup) StdoutLine: {'line': b'running develop\n'}
+[5.925155] (-) TimerEvent: {}
+[6.025561] (-) TimerEvent: {}
+[6.125933] (-) TimerEvent: {}
+[6.226358] (-) TimerEvent: {}
+[6.300602] (Stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[6.326468] (-) TimerEvent: {}
+[6.426877] (-) TimerEvent: {}
+[6.527252] (-) TimerEvent: {}
+[6.556467] (Stage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[6.627363] (-) TimerEvent: {}
+[6.727866] (-) TimerEvent: {}
+[6.828421] (-) TimerEvent: {}
+[6.928963] (-) TimerEvent: {}
+[7.002218] (robile_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.029077] (-) TimerEvent: {}
+[7.129611] (-) TimerEvent: {}
+[7.162117] (Stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[7.229719] (-) TimerEvent: {}
+[7.275434] (robile_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[7.275758] (robile_bringup) StdoutLine: {'line': b'creating robile_bringup.egg-info\n'}
+[7.276130] (robile_bringup) StdoutLine: {'line': b'writing robile_bringup.egg-info/PKG-INFO\n'}
+[7.276656] (robile_bringup) StdoutLine: {'line': b'writing dependency_links to robile_bringup.egg-info/dependency_links.txt\n'}
+[7.276914] (robile_bringup) StdoutLine: {'line': b'writing entry points to robile_bringup.egg-info/entry_points.txt\n'}
+[7.277202] (robile_bringup) StdoutLine: {'line': b'writing requirements to robile_bringup.egg-info/requires.txt\n'}
+[7.277361] (robile_bringup) StdoutLine: {'line': b'writing top-level names to robile_bringup.egg-info/top_level.txt\n'}
+[7.277808] (robile_bringup) StdoutLine: {'line': b"writing manifest file 'robile_bringup.egg-info/SOURCES.txt'\n"}
+[7.291882] (robile_bringup) StdoutLine: {'line': b"reading manifest file 'robile_bringup.egg-info/SOURCES.txt'\n"}
+[7.292168] (robile_bringup) StdoutLine: {'line': b"writing manifest file 'robile_bringup.egg-info/SOURCES.txt'\n"}
+[7.292423] (robile_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[7.292772] (robile_bringup) StdoutLine: {'line': b'Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages/robile-bringup.egg-link (link to .)\n'}
+[7.297537] (robile_bringup) StdoutLine: {'line': b'\n'}
+[7.297825] (robile_bringup) StdoutLine: {'line': b'Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup\n'}
+[7.298128] (robile_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[7.298355] (robile_bringup) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/ament_index\n'}
+[7.298553] (robile_bringup) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/ament_index/resource_index\n'}
+[7.298696] (robile_bringup) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/ament_index/resource_index/packages\n'}
+[7.298822] (robile_bringup) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/resource/robile_bringup -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/ament_index/resource_index/packages\n'}
+[7.299376] (robile_bringup) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/package.xml -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup\n'}
+[7.299556] (robile_bringup) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/launch/robot.launch.py -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup\n'}
+[7.308996] (Stage) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[7.329831] (-) TimerEvent: {}
+[7.430376] (-) TimerEvent: {}
+[7.530911] (-) TimerEvent: {}
+[7.609544] (robile_bringup) CommandEnded: {'returncode': 0}
+[7.631024] (-) TimerEvent: {}
+[7.631990] (robile_bringup) JobEnded: {'identifier': 'robile_bringup', 'rc': 0}
+[7.633312] (robile_reach_goal) JobStarted: {'identifier': 'robile_reach_goal'}
+[7.731130] (-) TimerEvent: {}
+[7.831562] (-) TimerEvent: {}
+[7.931952] (-) TimerEvent: {}
+[8.032368] (-) TimerEvent: {}
+[8.132984] (-) TimerEvent: {}
+[8.233458] (-) TimerEvent: {}
+[8.333880] (-) TimerEvent: {}
+[8.434296] (-) TimerEvent: {}
+[8.534715] (-) TimerEvent: {}
+[8.561424] (robile_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.568380] (robile_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[8.568732] (robile_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[8.568980] (robile_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[8.569226] (robile_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[8.569433] (robile_interfaces) StderrLine: {'line': b'\n'}
+[8.569655] (robile_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.569874] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[8.570106] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[8.570314] (robile_interfaces) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[8.570532] (robile_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.570786] (robile_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[8.634823] (-) TimerEvent: {}
+[8.671223] (robile_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[8.677230] (robile_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.679125] (robile_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[8.679441] (robile_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[8.679662] (robile_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[8.679871] (robile_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[8.680112] (robile_interfaces) StderrLine: {'line': b'\n'}
+[8.680335] (robile_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.680548] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[8.680763] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[8.681005] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[8.681222] (robile_interfaces) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[8.681439] (robile_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.681670] (robile_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[8.734934] (-) TimerEvent: {}
+[8.797260] (robile_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[8.797717] (robile_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[8.797967] (robile_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[8.798176] (robile_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[8.798404] (robile_interfaces) StderrLine: {'line': b'\n'}
+[8.798619] (robile_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.798833] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[8.799047] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[8.799287] (robile_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[8.799520] (robile_interfaces) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[8.799762] (robile_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.800033] (robile_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[8.835046] (-) TimerEvent: {}
+[8.839689] (robile_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[8.840578] (robile_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.840897] (robile_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.841152] (robile_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.935157] (-) TimerEvent: {}
+[8.964068] (robile_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[9.035267] (-) TimerEvent: {}
+[9.135662] (-) TimerEvent: {}
+[9.236086] (-) TimerEvent: {}
+[9.336481] (-) TimerEvent: {}
+[9.386178] (robile_interfaces) StdoutLine: {'line': b'-- Configuring done (9.3s)\n'}
+[9.436589] (-) TimerEvent: {}
+[9.544276] (-) TimerEvent: {}
+[9.568434] (robile_interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[9.590121] (robile_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces\n'}
+[9.638679] (robile_interfaces) CommandEnded: {'returncode': 0}
+[9.639378] (robile_interfaces) JobProgress: {'identifier': 'robile_interfaces', 'progress': 'build'}
+[9.639431] (robile_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.644389] (-) TimerEvent: {}
+[9.744832] (-) TimerEvent: {}
+[9.832059] (robile_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.844950] (-) TimerEvent: {}
+[9.878959] (robile_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.892042] (Stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[9.892822] (robile_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_robile_interfaces\n'}
+[9.928519] (robile_control_simple) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/build', '--no-deps', 'symlink_data'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en', 'USER': 'student', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'student', 'DESKTOP_AUTOSTART_ID': '107e7aa9df658d62ca174539594763716500000091520024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'SAL_USE_VCLPLUGIN': 'kf5', 'PATH': '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/student/ros2_network_config.xml', 'GDM_LANG': 'en', 'PAPERSIZE': 'a4', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[9.945056] (-) TimerEvent: {}
+[10.045550] (-) TimerEvent: {}
+[10.054746] (Stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[10.145674] (-) TimerEvent: {}
+[10.246182] (-) TimerEvent: {}
+[10.346697] (-) TimerEvent: {}
+[10.447183] (-) TimerEvent: {}
+[10.547681] (-) TimerEvent: {}
+[10.648181] (-) TimerEvent: {}
+[10.709634] (Stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[10.748278] (-) TimerEvent: {}
+[10.848759] (-) TimerEvent: {}
+[10.949285] (-) TimerEvent: {}
+[11.049976] (-) TimerEvent: {}
+[11.150436] (-) TimerEvent: {}
+[11.250954] (-) TimerEvent: {}
+[11.351521] (-) TimerEvent: {}
+[11.452061] (-) TimerEvent: {}
+[11.453807] (robile_interfaces) StdoutLine: {'line': b'[  5%] Built target robile_interfaces__cpp\n'}
+[11.528058] (robile_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.532874] (robile_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.552161] (-) TimerEvent: {}
+[11.579457] (robile_control_simple) StdoutLine: {'line': b'running develop\n'}
+[11.652264] (-) TimerEvent: {}
+[11.752753] (-) TimerEvent: {}
+[11.844766] (robile_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robile_interfaces/msg/detail/position_labelled__functions.c.o\x1b[0m\n'}
+[11.852886] (-) TimerEvent: {}
+[11.953350] (-) TimerEvent: {}
+[12.053745] (-) TimerEvent: {}
+[12.060289] (robile_reach_goal) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/build', '--no-deps', 'symlink_data'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en', 'USER': 'student', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/student', 'OLDPWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'student', 'DESKTOP_AUTOSTART_ID': '107e7aa9df658d62ca174539594763716500000091520024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'SAL_USE_VCLPLUGIN': 'kf5', 'PATH': '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/student/ros2_network_config.xml', 'GDM_LANG': 'en', 'PAPERSIZE': 'a4', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[12.068379] (robile_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[12.077599] (robile_interfaces) StdoutLine: {'line': b'creating robile_interfaces.egg-info\n'}
+[12.079183] (robile_interfaces) StdoutLine: {'line': b'writing robile_interfaces.egg-info/PKG-INFO\n'}
+[12.079474] (robile_interfaces) StdoutLine: {'line': b'writing dependency_links to robile_interfaces.egg-info/dependency_links.txt\n'}
+[12.080958] (robile_interfaces) StdoutLine: {'line': b'writing top-level names to robile_interfaces.egg-info/top_level.txt\n'}
+[12.087063] (robile_interfaces) StdoutLine: {'line': b"writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'\n"}
+[12.092384] (robile_interfaces) StdoutLine: {'line': b"reading manifest file 'robile_interfaces.egg-info/SOURCES.txt'\n"}
+[12.093429] (robile_interfaces) StdoutLine: {'line': b"writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'\n"}
+[12.152523] (robile_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robile_interfaces/msg/detail/position_labelled_array__functions.c.o\x1b[0m\n'}
+[12.153839] (-) TimerEvent: {}
+[12.232787] (robile_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_robile_interfaces_egg\n'}
+[12.253938] (-) TimerEvent: {}
+[12.292559] (robile_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.354061] (-) TimerEvent: {}
+[12.411060] (robile_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library librobile_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[12.454175] (-) TimerEvent: {}
+[12.554706] (-) TimerEvent: {}
+[12.611671] (robile_interfaces) StdoutLine: {'line': b'[ 20%] Built target robile_interfaces__rosidl_generator_c\n'}
+[12.654843] (-) TimerEvent: {}
+[12.676575] (robile_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.754939] (-) TimerEvent: {}
+[12.855309] (-) TimerEvent: {}
+[12.955666] (-) TimerEvent: {}
+[13.056773] (-) TimerEvent: {}
+[13.125149] (robile_control_simple) StdoutLine: {'line': b'running egg_info\n'}
+[13.132089] (robile_control_simple) StdoutLine: {'line': b'creating robile_control_simple.egg-info\n'}
+[13.133078] (robile_control_simple) StdoutLine: {'line': b'writing robile_control_simple.egg-info/PKG-INFO\n'}
+[13.133608] (robile_control_simple) StdoutLine: {'line': b'writing dependency_links to robile_control_simple.egg-info/dependency_links.txt\n'}
+[13.133906] (robile_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robile_interfaces/msg/position_labelled__type_support.cpp.o\x1b[0m\n'}
+[13.144467] (robile_control_simple) StdoutLine: {'line': b'writing entry points to robile_control_simple.egg-info/entry_points.txt\n'}
+[13.145042] (robile_control_simple) StdoutLine: {'line': b'writing requirements to robile_control_simple.egg-info/requires.txt\n'}
+[13.145471] (robile_control_simple) StdoutLine: {'line': b'writing top-level names to robile_control_simple.egg-info/top_level.txt\n'}
+[13.152790] (robile_control_simple) StdoutLine: {'line': b"writing manifest file 'robile_control_simple.egg-info/SOURCES.txt'\n"}
+[13.156613] (robile_control_simple) StdoutLine: {'line': b"reading manifest file 'robile_control_simple.egg-info/SOURCES.txt'\n"}
+[13.156868] (-) TimerEvent: {}
+[13.158755] (robile_control_simple) StdoutLine: {'line': b"writing manifest file 'robile_control_simple.egg-info/SOURCES.txt'\n"}
+[13.169285] (robile_control_simple) StdoutLine: {'line': b'running build_ext\n'}
+[13.180043] (robile_control_simple) StdoutLine: {'line': b'Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/python3.10/site-packages/robile-control-simple.egg-link (link to .)\n'}
+[13.182194] (robile_control_simple) StdoutLine: {'line': b'Installing circular_motion_publisher script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/robile_control_simple\n'}
+[13.184562] (robile_control_simple) StdoutLine: {'line': b'\n'}
+[13.184933] (robile_control_simple) StdoutLine: {'line': b'Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple\n'}
+[13.185505] (robile_control_simple) StdoutLine: {'line': b'running symlink_data\n'}
+[13.186374] (robile_control_simple) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/ament_index\n'}
+[13.186963] (robile_control_simple) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/ament_index/resource_index\n'}
+[13.187328] (robile_control_simple) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/ament_index/resource_index/packages\n'}
+[13.187864] (robile_control_simple) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/resource/robile_control_simple -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/ament_index/resource_index/packages\n'}
+[13.188450] (robile_control_simple) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/package.xml -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple\n'}
+[13.256994] (-) TimerEvent: {}
+[13.357369] (-) TimerEvent: {}
+[13.404178] (robile_control_simple) CommandEnded: {'returncode': 0}
+[13.425256] (robile_control_simple) JobEnded: {'identifier': 'robile_control_simple', 'rc': 0}
+[13.426538] (robile_gazebo) JobStarted: {'identifier': 'robile_gazebo'}
+[13.431398] (robile_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robile_interfaces/msg/detail/dds_fastrtps/position_labelled__type_support.cpp.o\x1b[0m\n'}
+[13.457480] (-) TimerEvent: {}
+[13.516874] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'cmake'}
+[13.516982] (robile_gazebo) Command: {'cmd': ['/usr/local/bin/cmake', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo'], 'cwd': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'student'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('DESKTOP_AUTOSTART_ID', '107e7aa9df658d62ca174539594763716500000091520024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/humble/bin:/home/student/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00049239:@/tmp/.ICE-unix/9152,unix/labdoo-00049239:/tmp/.ICE-unix/9152'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/student/ros2_network_config.xml'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/student/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/student'), ('AMENT_PREFIX_PATH', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:688daa27-4411-45b0-85c2-61344def07e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble')]), 'shell': False}
+[13.563994] (-) TimerEvent: {}
+[13.664391] (-) TimerEvent: {}
+[13.761285] (robile_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.764501] (-) TimerEvent: {}
+[13.865008] (-) TimerEvent: {}
+[13.965522] (-) TimerEvent: {}
+[14.024666] (robile_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robile_interfaces/msg/detail/position_labelled__type_support.cpp.o\x1b[0m\n'}
+[14.065628] (-) TimerEvent: {}
+[14.085122] (robile_reach_goal) StdoutLine: {'line': b'running develop\n'}
+[14.086596] (robile_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.165852] (-) TimerEvent: {}
+[14.225399] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.265968] (-) TimerEvent: {}
+[14.366522] (-) TimerEvent: {}
+[14.467072] (-) TimerEvent: {}
+[14.567612] (-) TimerEvent: {}
+[14.608722] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[14.657805] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.667727] (-) TimerEvent: {}
+[14.696153] (robile_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__type_support_c.cpp.o\x1b[0m\n'}
+[14.767851] (-) TimerEvent: {}
+[14.772046] (robile_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.774119] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.775186] (robile_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.785635] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.867972] (-) TimerEvent: {}
+[14.908720] (robile_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robile_interfaces/msg/position_labelled_array__type_support.cpp.o\x1b[0m\n'}
+[14.968079] (-) TimerEvent: {}
+[15.068472] (-) TimerEvent: {}
+[15.168910] (-) TimerEvent: {}
+[15.176667] (Stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[15.184284] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.269042] (-) TimerEvent: {}
+[15.273337] (robile_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.274528] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.276371] (robile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.281914] (robile_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[15.369147] (-) TimerEvent: {}
+[15.469489] (-) TimerEvent: {}
+[15.470016] (robile_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robile_interfaces/msg/detail/dds_fastrtps/position_labelled_array__type_support.cpp.o\x1b[0m\n'}
+[15.526281] (Stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[15.569624] (-) TimerEvent: {}
+[15.670069] (-) TimerEvent: {}
+[15.768986] (robile_reach_goal) StdoutLine: {'line': b'running egg_info\n'}
+[15.770172] (-) TimerEvent: {}
+[15.770671] (robile_reach_goal) StdoutLine: {'line': b'creating robile_reach_goal.egg-info\n'}
+[15.788041] (robile_reach_goal) StdoutLine: {'line': b'writing robile_reach_goal.egg-info/PKG-INFO\n'}
+[15.788876] (robile_reach_goal) StdoutLine: {'line': b'writing dependency_links to robile_reach_goal.egg-info/dependency_links.txt\n'}
+[15.789514] (robile_reach_goal) StdoutLine: {'line': b'writing entry points to robile_reach_goal.egg-info/entry_points.txt\n'}
+[15.790077] (robile_reach_goal) StdoutLine: {'line': b'writing requirements to robile_reach_goal.egg-info/requires.txt\n'}
+[15.790557] (robile_reach_goal) StdoutLine: {'line': b'writing top-level names to robile_reach_goal.egg-info/top_level.txt\n'}
+[15.791613] (robile_reach_goal) StdoutLine: {'line': b"writing manifest file 'robile_reach_goal.egg-info/SOURCES.txt'\n"}
+[15.795900] (robile_reach_goal) StdoutLine: {'line': b"reading manifest file 'robile_reach_goal.egg-info/SOURCES.txt'\n"}
+[15.797740] (robile_reach_goal) StdoutLine: {'line': b"writing manifest file 'robile_reach_goal.egg-info/SOURCES.txt'\n"}
+[15.812120] (robile_reach_goal) StdoutLine: {'line': b'running build_ext\n'}
+[15.813110] (robile_reach_goal) StdoutLine: {'line': b'Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/python3.10/site-packages/robile-reach-goal.egg-link (link to .)\n'}
+[15.816031] (robile_reach_goal) StdoutLine: {'line': b'Installing robile_reach_goal script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/robile_reach_goal\n'}
+[15.816976] (robile_reach_goal) StdoutLine: {'line': b'\n'}
+[15.817281] (robile_reach_goal) StdoutLine: {'line': b'Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal\n'}
+[15.824030] (robile_reach_goal) StdoutLine: {'line': b'running symlink_data\n'}
+[15.824612] (robile_reach_goal) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/ament_index\n'}
+[15.825076] (robile_reach_goal) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/ament_index/resource_index\n'}
+[15.825479] (robile_reach_goal) StdoutLine: {'line': b'creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/ament_index/resource_index/packages\n'}
+[15.836054] (robile_reach_goal) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/resource/robile_reach_goal -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/ament_index/resource_index/packages\n'}
+[15.836763] (robile_reach_goal) StdoutLine: {'line': b'symbolically linking /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/package.xml -> /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal\n'}
+[15.870372] (-) TimerEvent: {}
+[15.971135] (-) TimerEvent: {}
+[16.071650] (-) TimerEvent: {}
+[16.108506] (robile_reach_goal) CommandEnded: {'returncode': 0}
+[16.144139] (robile_reach_goal) JobEnded: {'identifier': 'robile_reach_goal', 'rc': 0}
+[16.171773] (-) TimerEvent: {}
+[16.173982] (robile_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__type_support_c.cpp.o\x1b[0m\n'}
+[16.240760] (robile_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[16.271880] (-) TimerEvent: {}
+[16.296119] (robile_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.375987] (-) TimerEvent: {}
+[16.476393] (-) TimerEvent: {}
+[16.484358] (robile_interfaces) StdoutLine: {'line': b'[ 43%] Built target robile_interfaces__rosidl_typesupport_cpp\n'}
+[16.528061] (robile_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robile_interfaces/msg/detail/position_labelled_array__type_support.cpp.o\x1b[0m\n'}
+[16.537113] (robile_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.576550] (-) TimerEvent: {}
+[16.649785] (robile_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[16.676638] (-) TimerEvent: {}
+[16.777125] (-) TimerEvent: {}
+[16.800116] (Stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[16.835323] (robile_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[16.877308] (-) TimerEvent: {}
+[16.977888] (-) TimerEvent: {}
+[17.078273] (-) TimerEvent: {}
+[17.152035] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.178435] (-) TimerEvent: {}
+[17.179083] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.256034] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.278553] (-) TimerEvent: {}
+[17.339436] (robile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.378688] (-) TimerEvent: {}
+[17.460063] (robile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.478801] (-) TimerEvent: {}
+[17.579322] (-) TimerEvent: {}
+[17.648064] (robile_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.679439] (-) TimerEvent: {}
+[17.776272] (robile_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.779558] (-) TimerEvent: {}
+[17.799362] (robile_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.879700] (-) TimerEvent: {}
+[17.976149] (robile_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.979831] (-) TimerEvent: {}
+[18.042741] (robile_interfaces) StdoutLine: {'line': b'[ 53%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.072969] (robile_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.079299] (robile_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robile_interfaces/msg/detail/position_labelled__type_support.c.o\x1b[0m\n'}
+[18.080062] (-) TimerEvent: {}
+[18.180570] (-) TimerEvent: {}
+[18.242131] (robile_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robile_interfaces/msg/detail/position_labelled_array__type_support.c.o\x1b[0m\n'}
+[18.280683] (-) TimerEvent: {}
+[18.293012] (robile_interfaces) StdoutLine: {'line': b'[ 61%] Built target robile_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.380791] (-) TimerEvent: {}
+[18.417937] (robile_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library librobile_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.434450] (robile_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[18.474043] (robile_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.480909] (-) TimerEvent: {}
+[18.496293] (Stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[18.537030] (robile_interfaces) StdoutLine: {'line': b'[ 66%] Built target robile_interfaces__rosidl_typesupport_introspection_c\n'}
+[18.562923] (robile_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[18.581028] (-) TimerEvent: {}
+[18.681540] (-) TimerEvent: {}
+[18.781942] (-) TimerEvent: {}
+[18.782321] (robile_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.838900] (robile_interfaces) StdoutLine: {'line': b'[ 66%] Built target robile_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[18.839267] (robile_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.882064] (-) TimerEvent: {}
+[18.982467] (-) TimerEvent: {}
+[19.013016] (robile_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.015764] (robile_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[19.082591] (-) TimerEvent: {}
+[19.182969] (-) TimerEvent: {}
+[19.283378] (-) TimerEvent: {}
+[19.297345] (robile_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robile_interfaces/msg/position_labelled__type_support.cpp.o\x1b[0m\n'}
+[19.300957] (robile_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robile_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robile_interfaces/msg/position_labelled_array__type_support.cpp.o\x1b[0m\n'}
+[19.383504] (-) TimerEvent: {}
+[19.423456] (robile_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[19.423809] (robile_gazebo) StderrLine: {'line': b'  By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[19.424006] (robile_gazebo) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "gazebo", but\n'}
+[19.424146] (robile_gazebo) StderrLine: {'line': b'  CMake did not find one.\n'}
+[19.424286] (robile_gazebo) StderrLine: {'line': b'\n'}
+[19.424416] (robile_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo" with any\n'}
+[19.424544] (robile_gazebo) StderrLine: {'line': b'  of the following names:\n'}
+[19.424677] (robile_gazebo) StderrLine: {'line': b'\n'}
+[19.424821] (robile_gazebo) StderrLine: {'line': b'    gazeboConfig.cmake\n'}
+[19.424958] (robile_gazebo) StderrLine: {'line': b'    gazebo-config.cmake\n'}
+[19.425086] (robile_gazebo) StderrLine: {'line': b'\n'}
+[19.425234] (robile_gazebo) StderrLine: {'line': b'  Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set\n'}
+[19.425366] (robile_gazebo) StderrLine: {'line': b'  "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"\n'}
+[19.425496] (robile_gazebo) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[19.425631] (robile_gazebo) StderrLine: {'line': b'  installed.\n'}
+[19.425759] (robile_gazebo) StderrLine: {'line': b'\n'}
+[19.425885] (robile_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[19.426012] (robile_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.465175] (robile_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobile_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.488060] (robile_gazebo) CommandEnded: {'returncode': 1}
+[19.489061] (-) TimerEvent: {}
+[19.514769] (robile_gazebo) JobEnded: {'identifier': 'robile_gazebo', 'rc': 1}
+[19.589191] (-) TimerEvent: {}
+[19.641663] (Stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[19.649237] (robile_interfaces) StdoutLine: {'line': b'[ 74%] Built target robile_interfaces__rosidl_typesupport_c\n'}
+[19.689325] (-) TimerEvent: {}
+[19.732048] (robile_interfaces) StdoutLine: {'line': b'[ 74%] Built target robile_interfaces\n'}
+[19.789437] (-) TimerEvent: {}
+[19.832049] (robile_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.889546] (-) TimerEvent: {}
+[19.989920] (-) TimerEvent: {}
+[20.056600] (Stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[20.090033] (-) TimerEvent: {}
+[20.190526] (-) TimerEvent: {}
+[20.291008] (-) TimerEvent: {}
+[20.391482] (-) TimerEvent: {}
+[20.491967] (-) TimerEvent: {}
+[20.592478] (-) TimerEvent: {}
+[20.692960] (-) TimerEvent: {}
+[20.793328] (-) TimerEvent: {}
+[20.893767] (-) TimerEvent: {}
+[20.933503] (Stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[20.993882] (-) TimerEvent: {}
+[21.094385] (-) TimerEvent: {}
+[21.194756] (-) TimerEvent: {}
+[21.252798] (robile_interfaces) StdoutLine: {'line': b'[ 76%] Built target robile_interfaces__py\n'}
+[21.294898] (-) TimerEvent: {}
+[21.364060] (robile_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robile_interfaces/msg/_position_labelled_s.c.o\x1b[0m\n'}
+[21.364325] (robile_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robile_interfaces/msg/_position_labelled_array_s.c.o\x1b[0m\n'}
+[21.395055] (-) TimerEvent: {}
+[21.495598] (-) TimerEvent: {}
+[21.498593] (Stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[21.595727] (-) TimerEvent: {}
+[21.696332] (-) TimerEvent: {}
+[21.796931] (-) TimerEvent: {}
+[21.832793] (robile_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robile_interfaces/librobile_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[21.897559] (-) TimerEvent: {}
+[21.998683] (-) TimerEvent: {}
+[22.026185] (robile_interfaces) StdoutLine: {'line': b'[ 84%] Built target robile_interfaces__rosidl_generator_py\n'}
+[22.098819] (-) TimerEvent: {}
+[22.120779] (robile_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.124816] (robile_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.138709] (robile_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/robile_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.152045] (Stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[22.198933] (-) TimerEvent: {}
+[22.299301] (-) TimerEvent: {}
+[22.399856] (-) TimerEvent: {}
+[22.479056] (robile_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.499945] (-) TimerEvent: {}
+[22.514624] (Stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[22.521488] (robile_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.572405] (robile_interfaces) StdoutLine: {'line': b'[ 97%] Built target robile_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[22.586704] (robile_interfaces) StdoutLine: {'line': b'[ 97%] Built target robile_interfaces__rosidl_typesupport_c__pyext\n'}
+[22.595973] (robile_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.600054] (-) TimerEvent: {}
+[22.659617] (robile_interfaces) StdoutLine: {'line': b'[100%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.670047] (robile_interfaces) JobEnded: {'identifier': 'robile_interfaces', 'rc': 'SIGINT'}
+[22.700161] (-) TimerEvent: {}
+[22.800519] (-) TimerEvent: {}
+[22.900883] (-) TimerEvent: {}
+[23.001287] (-) TimerEvent: {}
+[23.101665] (-) TimerEvent: {}
+[23.202039] (-) TimerEvent: {}
+[23.302413] (-) TimerEvent: {}
+[23.402786] (-) TimerEvent: {}
+[23.503166] (-) TimerEvent: {}
+[23.603549] (-) TimerEvent: {}
+[23.703913] (-) TimerEvent: {}
+[23.804277] (-) TimerEvent: {}
+[23.904643] (-) TimerEvent: {}
+[24.005017] (-) TimerEvent: {}
+[24.105380] (-) TimerEvent: {}
+[24.121791] (Stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[24.205494] (-) TimerEvent: {}
+[24.305849] (-) TimerEvent: {}
+[24.374432] (Stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[24.405969] (-) TimerEvent: {}
+[24.428037] (Stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[24.506098] (-) TimerEvent: {}
+[24.606455] (-) TimerEvent: {}
+[24.706829] (-) TimerEvent: {}
+[24.714543] (Stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[24.806942] (-) TimerEvent: {}
+[24.907312] (-) TimerEvent: {}
+[25.007699] (-) TimerEvent: {}
+[25.108077] (-) TimerEvent: {}
+[25.208505] (-) TimerEvent: {}
+[25.308894] (-) TimerEvent: {}
+[25.409289] (-) TimerEvent: {}
+[25.509648] (-) TimerEvent: {}
+[25.610030] (-) TimerEvent: {}
+[25.710403] (-) TimerEvent: {}
+[25.810786] (-) TimerEvent: {}
+[25.911161] (-) TimerEvent: {}
+[26.011563] (-) TimerEvent: {}
+[26.111967] (-) TimerEvent: {}
+[26.212366] (-) TimerEvent: {}
+[26.260057] (Stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[26.312466] (-) TimerEvent: {}
+[26.413000] (-) TimerEvent: {}
+[26.513527] (-) TimerEvent: {}
+[26.614048] (-) TimerEvent: {}
+[26.675483] (Stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[26.714172] (-) TimerEvent: {}
+[26.814684] (-) TimerEvent: {}
+[26.904134] (Stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[26.914804] (-) TimerEvent: {}
+[27.013320] (Stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[27.014912] (-) TimerEvent: {}
+[27.115422] (-) TimerEvent: {}
+[27.215847] (-) TimerEvent: {}
+[27.316354] (-) TimerEvent: {}
+[27.417172] (-) TimerEvent: {}
+[27.518299] (-) TimerEvent: {}
+[27.619246] (-) TimerEvent: {}
+[27.719733] (-) TimerEvent: {}
+[27.820547] (-) TimerEvent: {}
+[27.921125] (-) TimerEvent: {}
+[28.021719] (-) TimerEvent: {}
+[28.122246] (-) TimerEvent: {}
+[28.222845] (-) TimerEvent: {}
+[28.323411] (-) TimerEvent: {}
+[28.424003] (-) TimerEvent: {}
+[28.524545] (-) TimerEvent: {}
+[28.625047] (-) TimerEvent: {}
+[28.725558] (-) TimerEvent: {}
+[28.826059] (-) TimerEvent: {}
+[28.926576] (-) TimerEvent: {}
+[28.989350] (Stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[29.026692] (-) TimerEvent: {}
+[29.127196] (-) TimerEvent: {}
+[29.227687] (-) TimerEvent: {}
+[29.328066] (-) TimerEvent: {}
+[29.428427] (-) TimerEvent: {}
+[29.528803] (-) TimerEvent: {}
+[29.629158] (-) TimerEvent: {}
+[29.729539] (-) TimerEvent: {}
+[29.829909] (-) TimerEvent: {}
+[29.930294] (-) TimerEvent: {}
+[30.030664] (-) TimerEvent: {}
+[30.131047] (-) TimerEvent: {}
+[30.202209] (Stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[30.231160] (-) TimerEvent: {}
+[30.331568] (-) TimerEvent: {}
+[30.431968] (-) TimerEvent: {}
+[30.483270] (Stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[30.532072] (-) TimerEvent: {}
+[30.632572] (-) TimerEvent: {}
+[30.733055] (-) TimerEvent: {}
+[30.833568] (-) TimerEvent: {}
+[30.933922] (-) TimerEvent: {}
+[31.034290] (-) TimerEvent: {}
+[31.134755] (-) TimerEvent: {}
+[31.235122] (-) TimerEvent: {}
+[31.335474] (-) TimerEvent: {}
+[31.435824] (-) TimerEvent: {}
+[31.536182] (-) TimerEvent: {}
+[31.636528] (-) TimerEvent: {}
+[31.736868] (-) TimerEvent: {}
+[31.837223] (-) TimerEvent: {}
+[31.937561] (-) TimerEvent: {}
+[32.037894] (-) TimerEvent: {}
+[32.068018] (Stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[32.138073] (-) TimerEvent: {}
+[32.238536] (-) TimerEvent: {}
+[32.242847] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[32.259708] (Stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[32.260128] (Stage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[32.261319] (Stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[32.265707] (Stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[32.338665] (-) TimerEvent: {}
+[32.438996] (-) TimerEvent: {}
+[32.539339] (-) TimerEvent: {}
+[32.639703] (-) TimerEvent: {}
+[32.740057] (-) TimerEvent: {}
+[32.840393] (-) TimerEvent: {}
+[32.940788] (-) TimerEvent: {}
+[33.041175] (-) TimerEvent: {}
+[33.141644] (-) TimerEvent: {}
+[33.242103] (-) TimerEvent: {}
+[33.342532] (-) TimerEvent: {}
+[33.442909] (-) TimerEvent: {}
+[33.543273] (-) TimerEvent: {}
+[33.643654] (-) TimerEvent: {}
+[33.743969] (-) TimerEvent: {}
+[33.844312] (-) TimerEvent: {}
+[33.944656] (-) TimerEvent: {}
+[34.045026] (-) TimerEvent: {}
+[34.143564] (Stage) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[34.145223] (-) TimerEvent: {}
+[34.169127] (Stage) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[34.176988] (Stage) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[34.216067] (Stage) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[34.245291] (-) TimerEvent: {}
+[34.346000] (-) TimerEvent: {}
+[34.369497] (Stage) StdoutLine: {'line': b'[ 71%] Built target source\n'}
+[34.393211] (Stage) StdoutLine: {'line': b'[ 71%] Built target fasr\n'}
+[34.395370] (Stage) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[34.403953] (Stage) StdoutLine: {'line': b'[ 72%] Built target stagebinary\n'}
+[34.412583] (Stage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[34.426937] (Stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[34.433040] (Stage) StdoutLine: {'line': b'[ 76%] Built target sink\n'}
+[34.446207] (-) TimerEvent: {}
+[34.463518] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[34.546314] (-) TimerEvent: {}
+[34.646789] (-) TimerEvent: {}
+[34.747298] (-) TimerEvent: {}
+[34.847844] (-) TimerEvent: {}
+[34.948371] (-) TimerEvent: {}
+[35.049190] (-) TimerEvent: {}
+[35.149690] (-) TimerEvent: {}
+[35.250257] (-) TimerEvent: {}
+[35.351364] (-) TimerEvent: {}
+[35.452387] (-) TimerEvent: {}
+[35.553210] (-) TimerEvent: {}
+[35.653728] (-) TimerEvent: {}
+[35.754229] (-) TimerEvent: {}
+[35.854710] (-) TimerEvent: {}
+[35.955204] (-) TimerEvent: {}
+[36.055688] (-) TimerEvent: {}
+[36.156230] (-) TimerEvent: {}
+[36.216102] (Stage) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[36.223043] (Stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[36.256346] (-) TimerEvent: {}
+[36.283703] (Stage) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[36.356468] (-) TimerEvent: {}
+[36.420428] (Stage) StdoutLine: {'line': b'[ 83%] Built target rasterize\n'}
+[36.430055] (Stage) StdoutLine: {'line': b'[ 83%] Built target pioneer_flocking\n'}
+[36.439275] (Stage) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[36.448931] (Stage) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[36.456569] (-) TimerEvent: {}
+[36.479223] (Stage) StdoutLine: {'line': b'[ 86%] Built target lasernoise\n'}
+[36.493343] (Stage) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[36.502405] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[36.556687] (-) TimerEvent: {}
+[36.641021] (Stage) StdoutLine: {'line': b'[ 89%] Built target wander\n'}
+[36.656794] (-) TimerEvent: {}
+[36.664048] (Stage) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[36.756909] (-) TimerEvent: {}
+[36.857284] (-) TimerEvent: {}
+[36.957639] (-) TimerEvent: {}
+[37.061835] (-) TimerEvent: {}
+[37.162276] (-) TimerEvent: {}
+[37.262646] (-) TimerEvent: {}
+[37.363044] (-) TimerEvent: {}
+[37.463442] (-) TimerEvent: {}
+[37.563815] (-) TimerEvent: {}
+[37.664192] (-) TimerEvent: {}
+[37.764568] (-) TimerEvent: {}
+[37.864935] (-) TimerEvent: {}
+[37.965317] (-) TimerEvent: {}
+[38.065694] (-) TimerEvent: {}
+[38.166056] (-) TimerEvent: {}
+[38.253148] (Stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[38.266196] (-) TimerEvent: {}
+[38.333384] (Stage) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[38.366317] (-) TimerEvent: {}
+[38.420922] (Stage) StdoutLine: {'line': b'[ 94%] Built target dynamic\n'}
+[38.428994] (Stage) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[38.466438] (-) TimerEvent: {}
+[38.498747] (Stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[38.513389] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_swarm\n'}
+[38.566645] (-) TimerEvent: {}
+[38.667342] (-) TimerEvent: {}
+[38.670269] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[38.767465] (-) TimerEvent: {}
+[38.867929] (-) TimerEvent: {}
+[38.968352] (-) TimerEvent: {}
+[39.068777] (-) TimerEvent: {}
+[39.169135] (-) TimerEvent: {}
+[39.269459] (-) TimerEvent: {}
+[39.369765] (-) TimerEvent: {}
+[39.411734] (Stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[39.469915] (-) TimerEvent: {}
+[39.533021] (Stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[39.540648] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 'SIGINT'}
+[39.551541] (robile_navigation) JobSkipped: {'identifier': 'robile_navigation'}
+[39.551660] (-) EventReactorShutdown: {}

@@ -1,0 +1,213 @@
+[2.139s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work']
+[2.139s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f24138d5ff0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f2413847b80>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f2413847b80>>, mixin_verb=('list',))
+[5.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.787s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work'
+[5.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extensions ['ignore', 'ignore_ament_install']
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'ignore'
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'ignore_ament_install'
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extensions ['colcon_pkg']
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'colcon_pkg'
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extensions ['colcon_meta']
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'colcon_meta'
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extensions ['ros']
+[5.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'ros'
+[5.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extensions ['cmake', 'python']
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'cmake'
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'python'
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extensions ['python_setup_py']
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work) by extension 'python_setup_py'
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build) by extensions ['ignore', 'ignore_ament_install']
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build) by extension 'ignore'
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build) ignored
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install) by extensions ['ignore', 'ignore_ament_install']
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install) by extension 'ignore'
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install) ignored
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/log) by extensions ['ignore', 'ignore_ament_install']
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/log) by extension 'ignore'
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/log) ignored
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extensions ['ignore', 'ignore_ament_install']
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'ignore'
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'ignore_ament_install'
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extensions ['colcon_pkg']
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'colcon_pkg'
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extensions ['colcon_meta']
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'colcon_meta'
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extensions ['ros']
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'ros'
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extensions ['cmake', 'python']
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'cmake'
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'python'
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extensions ['python_setup_py']
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src) by extension 'python_setup_py'
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extensions ['ignore', 'ignore_ament_install']
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'ignore'
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'ignore_ament_install'
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extensions ['colcon_pkg']
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'colcon_pkg'
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extensions ['colcon_meta']
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'colcon_meta'
+[5.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extensions ['ros']
+[6.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'ros'
+[6.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extensions ['cmake', 'python']
+[6.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'cmake'
+[6.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'python'
+[6.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extensions ['python_setup_py']
+[6.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile) by extension 'python_setup_py'
+[6.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/docs) by extensions ['ignore', 'ignore_ament_install']
+[6.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/docs) by extension 'ignore'
+[6.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/docs) ignored
+[6.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extension 'ignore'
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extension 'ignore_ament_install'
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extensions ['colcon_pkg']
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extension 'colcon_pkg'
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extensions ['colcon_meta']
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extension 'colcon_meta'
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extensions ['ros']
+[6.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup) by extension 'ros'
+[6.048s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup' with type 'ros.ament_python' and name 'robile_bringup'
+[6.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extensions ['ignore', 'ignore_ament_install']
+[6.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'ignore'
+[6.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'ignore_ament_install'
+[6.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extensions ['colcon_pkg']
+[6.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'colcon_pkg'
+[6.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extensions ['colcon_meta']
+[6.049s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'colcon_meta'
+[6.049s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extensions ['ros']
+[6.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'ros'
+[6.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extensions ['cmake', 'python']
+[6.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'cmake'
+[6.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'python'
+[6.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extensions ['python_setup_py']
+[6.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos) by extension 'python_setup_py'
+[6.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extensions ['ignore', 'ignore_ament_install']
+[6.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extension 'ignore'
+[6.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extension 'ignore_ament_install'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_pkg']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extension 'colcon_pkg'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_meta']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extension 'colcon_meta'
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extensions ['ros']
+[6.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple) by extension 'ros'
+[6.060s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple' with type 'ros.ament_python' and name 'robile_control_simple'
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extensions ['ignore', 'ignore_ament_install']
+[6.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extension 'ignore'
+[6.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extension 'ignore_ament_install'
+[6.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_pkg']
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_pkg'
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_meta']
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_meta'
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extensions ['ros']
+[6.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal) by extension 'ros'
+[6.102s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal' with type 'ros.ament_python' and name 'robile_reach_goal'
+[6.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extensions ['ignore', 'ignore_ament_install']
+[6.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'ignore'
+[6.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'ignore_ament_install'
+[6.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extensions ['colcon_pkg']
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'colcon_pkg'
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extensions ['colcon_meta']
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'colcon_meta'
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extensions ['ros']
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'ros'
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extensions ['cmake', 'python']
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'cmake'
+[6.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'python'
+[6.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extensions ['python_setup_py']
+[6.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets) by extension 'python_setup_py'
+[6.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[6.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'ignore'
+[6.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'ignore_ament_install'
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extensions ['colcon_pkg']
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'colcon_pkg'
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extensions ['colcon_meta']
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'colcon_meta'
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extensions ['ros']
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'ros'
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extensions ['cmake', 'python']
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'cmake'
+[6.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'python'
+[6.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extensions ['python_setup_py']
+[6.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/bitmaps) by extension 'python_setup_py'
+[6.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extensions ['ignore', 'ignore_ament_install']
+[6.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'ignore'
+[6.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'ignore_ament_install'
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extensions ['colcon_pkg']
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'colcon_pkg'
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extensions ['colcon_meta']
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'colcon_meta'
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extensions ['ros']
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'ros'
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extensions ['cmake', 'python']
+[6.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'cmake'
+[6.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'python'
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extensions ['python_setup_py']
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet01) by extension 'python_setup_py'
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extensions ['ignore', 'ignore_ament_install']
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'ignore'
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'ignore_ament_install'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extensions ['colcon_pkg']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'colcon_pkg'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extensions ['colcon_meta']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'colcon_meta'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extensions ['ros']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'ros'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extensions ['cmake', 'python']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'cmake'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'python'
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extensions ['python_setup_py']
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/worksheets/worksheet02) by extension 'python_setup_py'
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extensions ['ignore', 'ignore_ament_install']
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extension 'ignore'
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extension 'ignore_ament_install'
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extensions ['colcon_pkg']
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extension 'colcon_pkg'
+[6.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extensions ['colcon_meta']
+[6.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extension 'colcon_meta'
+[6.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extensions ['ros']
+[6.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics) by extension 'ros'
+[6.142s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics' with type 'ros.ament_python' and name 'collective_robotics'
+[6.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extensions ['ignore', 'ignore_ament_install']
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extension 'ignore'
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extension 'ignore_ament_install'
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extensions ['colcon_pkg']
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extension 'colcon_pkg'
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extensions ['colcon_meta']
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extension 'colcon_meta'
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extensions ['ros']
+[6.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description) by extension 'ros'
+[6.172s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description' with type 'ros.ament_cmake' and name 'robile_description'
+[6.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[6.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extension 'ignore'
+[6.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extension 'ignore_ament_install'
+[6.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extensions ['colcon_pkg']
+[6.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extension 'colcon_pkg'
+[6.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extensions ['colcon_meta']
+[6.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extension 'colcon_meta'
+[6.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extensions ['ros']
+[6.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo) by extension 'ros'
+[6.192s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo' with type 'ros.ament_cmake' and name 'robile_gazebo'
+[6.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[6.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extension 'ignore'
+[6.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extension 'ignore_ament_install'
+[6.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extensions ['colcon_pkg']
+[6.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extension 'colcon_pkg'
+[6.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extensions ['colcon_meta']
+[6.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extension 'colcon_meta'
+[6.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extensions ['ros']
+[6.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces) by extension 'ros'
+[6.209s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces' with type 'ros.ament_cmake' and name 'robile_interfaces'
+[6.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extension 'ignore'
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extension 'ignore_ament_install'
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extensions ['colcon_pkg']
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extension 'colcon_pkg'
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extensions ['colcon_meta']
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extension 'colcon_meta'
+[6.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extensions ['ros']
+[6.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation) by extension 'ros'
+[6.249s] DEBUG:colcon.colcon_core.package_identification:Package '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation' with type 'ros.ament_cmake' and name 'robile_navigation'
+[6.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

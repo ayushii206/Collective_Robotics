@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing collective_robotics.egg-info/PKG-INFO
+writing dependency_links to collective_robotics.egg-info/dependency_links.txt
+writing entry points to collective_robotics.egg-info/entry_points.txt
+writing requirements to collective_robotics.egg-info/requires.txt
+writing top-level names to collective_robotics.egg-info/top_level.txt
+reading manifest file 'collective_robotics.egg-info/SOURCES.txt'
+writing manifest file 'collective_robotics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective-robotics.egg-link (link to .)
+Installing navigation script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics
+Installing obstacle_avoid script to /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics
+
+Installed /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics
+running symlink_data

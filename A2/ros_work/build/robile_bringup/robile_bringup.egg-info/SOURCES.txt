@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+launch/robot.launch.py
+resource/robile_bringup
+robile_bringup/__init__.py
+robile_bringup.egg-info/PKG-INFO
+robile_bringup.egg-info/SOURCES.txt
+robile_bringup.egg-info/dependency_links.txt
+robile_bringup.egg-info/entry_points.txt
+robile_bringup.egg-info/requires.txt
+robile_bringup.egg-info/top_level.txt
+robile_bringup.egg-info/zip-safe

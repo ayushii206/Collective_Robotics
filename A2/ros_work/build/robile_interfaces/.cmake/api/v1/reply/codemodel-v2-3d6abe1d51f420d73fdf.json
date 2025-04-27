@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d46bca574a2943fe03b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robile_interfaces__py",
+					"jsonFile" : "directory-robile_interfaces__py-a4a62e03666ba4ee12b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces/robile_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robile_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robile_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robile_interfaces_egg-fbf0a17cf1319a06d0ec.json",
+					"name" : "ament_cmake_python_build_robile_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_robile_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_robile_interfaces-dbdce4ec6011cec4b460.json",
+					"name" : "ament_cmake_python_symlink_robile_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces-b6f7b0a41fec457362a3.json",
+					"name" : "robile_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__cpp-84fd42be8be2398f22f8.json",
+					"name" : "robile_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robile_interfaces__py::@052b3a3ae2516957f09c",
+					"jsonFile" : "target-robile_interfaces__py-b201c3511098456ccfc6.json",
+					"name" : "robile_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_generator_c-01824dbbf06871244c71.json",
+					"name" : "robile_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_generator_py-eff4edf21471978019ab.json",
+					"name" : "robile_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_c-be389424abaf1c20298f.json",
+					"name" : "robile_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_c__pyext-6784e4e6a381370b1738.json",
+					"name" : "robile_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_cpp-a0e6c755771a1429498a.json",
+					"name" : "robile_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_fastrtps_c-832bd895fa201e6f65fa.json",
+					"name" : "robile_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_fastrtps_c__pyext-19de267c9aa08797a0af.json",
+					"name" : "robile_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_fastrtps_cpp-a4617f4f0441c38b4a16.json",
+					"name" : "robile_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_introspection_c-9ce2f63555f47513dde8.json",
+					"name" : "robile_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_introspection_c__pyext-c08dd7088286f730b793.json",
+					"name" : "robile_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces__rosidl_typesupport_introspection_cpp-a22c28b66b0a4fd3d62d.json",
+					"name" : "robile_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robile_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robile_interfaces_uninstall-17f41bf28f408325198c.json",
+					"name" : "robile_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b63dec9e414e64ba932c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces",
+		"source" : "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

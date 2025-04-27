@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robile_interfaces__py",
+		"source" : "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces/robile_interfaces__py"
+	}
+}

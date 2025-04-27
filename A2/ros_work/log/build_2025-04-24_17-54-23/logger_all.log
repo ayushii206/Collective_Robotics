@@ -1,0 +1,718 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f100e1f5ab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f100e167dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f100e167dc0>>, mixin_verb=('build',))
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.502s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ros'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['cmake', 'python']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'cmake'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'python'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['python_setup_py']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'python_setup_py'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) ignored
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_bringup' with type 'ros.ament_python' and name 'robile_bringup'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_demos/robile_control_simple' with type 'ros.ament_python' and name 'robile_control_simple'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ros'
+[0.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_demos/robile_reach_goal' with type 'ros.ament_python' and name 'robile_reach_goal'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ros'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['cmake', 'python']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['python_setup_py']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'src/collective_robotics' with type 'ros.ament_python' and name 'collective_robotics'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ros'
+[0.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_description' with type 'ros.ament_cmake' and name 'robile_description'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_gazebo' with type 'ros.ament_cmake' and name 'robile_gazebo'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_interfaces' with type 'ros.ament_cmake' and name 'robile_interfaces'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ros'
+[0.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_navigation' with type 'ros.ament_cmake' and name 'robile_navigation'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'cmake'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'python'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'cmake' and name 'Stage'
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 404 installed packages in /opt/ros/humble
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_first' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_force_configure' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'ament_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.642s] DEBUG:colcon.colcon_core.verb:Building package 'Stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/stage_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'collective_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics', 'symlink_install': True, 'test_result_base': None}
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'robile_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'robile_control_simple' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple', 'symlink_install': True, 'test_result_base': None}
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.645s] DEBUG:colcon.colcon_core.verb:Building package 'robile_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description', 'symlink_install': True, 'test_result_base': None}
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.646s] DEBUG:colcon.colcon_core.verb:Building package 'robile_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.646s] DEBUG:colcon.colcon_core.verb:Building package 'robile_reach_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal', 'symlink_install': True, 'test_result_base': None}
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'robile_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'robile_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation', 'merge_install': False, 'path': '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.648s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description' with build type 'ament_cmake'
+[0.649s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description'
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces' with build type 'ament_cmake'
+[0.656s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces'
+[0.656s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/stage_ros2'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.665s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics' with build type 'ament_python'
+[0.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'ament_prefix_path')
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.sh'
+[0.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage': /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage -- -j4 -l4
+[1.449s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/collective_robotics'
+[1.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage' returned '0': /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage -- -j4 -l4
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage': /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description -- -j4 -l4
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Stage)
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage' for CMake module files
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage' for CMake config files
+[1.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'cmake_prefix_path')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/cmake_prefix_path.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/cmake_prefix_path.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/cmake_prefix_path.sh'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/lib'
+[1.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'ld_library_path_lib')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/ld_library_path_lib.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/ld_library_path_lib.dsv'
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/ld_library_path_lib.sh'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/bin'
+[1.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'path')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/path.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/path.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/path.sh'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/lib/pkgconfig/Stage.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/lib/python3.10/site-packages'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/bin'
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'pythonscriptspath')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/pythonscriptspath.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/pythonscriptspath.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/hook/pythonscriptspath.sh'
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage' returned '0': /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/package.ps1'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/package.dsv'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/package.sh'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/package.bash'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/Stage/package.zsh'
+[1.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/Stage/share/colcon-core/packages/Stage)
+[1.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup' with build type 'ament_python'
+[1.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'ament_prefix_path')
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.sh'
+[1.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description -- -j4 -l4
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description
+[2.266s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_bringup'
+[2.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description' for CMake module files
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description' for CMake config files
+[2.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description
+[2.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[2.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/bin'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/lib/pkgconfig/robile_description.pc'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/lib/python3.10/site-packages'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/bin'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.ps1'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.dsv'
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.sh'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.bash'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.zsh'
+[2.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/colcon-core/packages/robile_description)
+[2.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description' for CMake module files
+[2.292s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description' for CMake config files
+[2.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[2.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/bin'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/lib/pkgconfig/robile_description.pc'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/lib/python3.10/site-packages'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/bin'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.sh'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.bash'
+[2.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.zsh'
+[2.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/colcon-core/packages/robile_description)
+[2.303s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple' with build type 'ament_python'
+[2.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'ament_prefix_path')
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.sh'
+[2.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.316s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/ament_index/resource_index/packages/collective_robotics
+[2.316s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/package.xml
+[2.317s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics/navigation
+[2.317s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/collective_robotics/obstacle_avoid
+[2.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build --no-deps symlink_data --force
+[3.205s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_control_simple'
+[3.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.371s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/ament_index/resource_index/packages/robile_bringup
+[3.371s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/package.xml
+[3.372s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/robot.launch.py
+[3.372s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup
+[3.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/build --no-deps symlink_data --force
+[3.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'pythonpath_develop')
+[3.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.ps1'
+[3.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.dsv'
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.sh'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics' for CMake module files
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics' for CMake config files
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/bin'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/pkgconfig/collective_robotics.pc'
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages'
+[3.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'pythonpath')
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/hook/pythonpath.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/hook/pythonpath.dsv'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/hook/pythonpath.sh'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/bin'
+[3.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(collective_robotics)
+[3.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/package.ps1'
+[3.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics' returned '0': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/collective_robotics/build --no-deps symlink_data --force
+[3.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/package.dsv'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/package.sh'
+[3.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/package.bash'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/collective_robotics/package.zsh'
+[3.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics/share/colcon-core/packages/collective_robotics)
+[3.983s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal' with build type 'ament_python'
+[3.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'ament_prefix_path')
+[3.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.ps1'
+[3.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.dsv'
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.sh'
+[3.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.746s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/Robile/robile_demos/robile_reach_goal'
+[4.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.757s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/ament_index/resource_index/packages/robile_control_simple
+[4.757s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/package.xml
+[4.757s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/robile_control_simple/circular_motion_publisher
+[4.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/build --no-deps symlink_data --force
+[4.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'pythonpath_develop')
+[4.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/share/robile_bringup/hook/pythonpath_develop.ps1'
+[4.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/share/robile_bringup/hook/pythonpath_develop.dsv'
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/share/robile_bringup/hook/pythonpath_develop.sh'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup' for CMake module files
+[4.860s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup' for CMake config files
+[4.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup' returned '0': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_bringup/build --no-deps symlink_data --force
+[4.862s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib'
+[4.862s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/bin'
+[4.862s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/pkgconfig/robile_bringup.pc'
+[4.863s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/lib/python3.10/site-packages'
+[4.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'pythonpath')
+[4.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/hook/pythonpath.ps1'
+[4.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/hook/pythonpath.dsv'
+[4.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/hook/pythonpath.sh'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/bin'
+[4.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_bringup)
+[4.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/package.ps1'
+[4.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/package.dsv'
+[4.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/package.sh'
+[4.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/package.bash'
+[4.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/robile_bringup/package.zsh'
+[4.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup/share/colcon-core/packages/robile_bringup)
+[4.875s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo' with build type 'ament_cmake'
+[4.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo'
+[4.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo
+[5.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces
+[5.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces -- -j4 -l4
+[5.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/build --no-deps symlink_data
+[6.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces -- -j4 -l4
+[6.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces
+[6.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'pythonpath_develop')
+[6.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/share/robile_control_simple/hook/pythonpath_develop.ps1'
+[6.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/share/robile_control_simple/hook/pythonpath_develop.dsv'
+[6.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/share/robile_control_simple/hook/pythonpath_develop.sh'
+[6.495s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple' for CMake module files
+[6.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple' returned '0': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_control_simple/build --no-deps symlink_data --force
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple' for CMake config files
+[6.500s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib'
+[6.500s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/bin'
+[6.501s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/pkgconfig/robile_control_simple.pc'
+[6.501s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/lib/python3.10/site-packages'
+[6.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'pythonpath')
+[6.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.ps1'
+[6.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.dsv'
+[6.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.sh'
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/bin'
+[6.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_control_simple)
+[6.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/package.ps1'
+[6.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/package.dsv'
+[6.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/package.sh'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/package.bash'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/robile_control_simple/package.zsh'
+[6.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple/share/colcon-core/packages/robile_control_simple)
+[6.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces' for CMake module files
+[6.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces' for CMake config files
+[6.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[6.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[6.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[6.589s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib'
+[6.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[6.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[6.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[6.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/bin'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/python3.10/site-packages'
+[6.594s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/bin'
+[6.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[6.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[6.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.sh'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.bash'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[6.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[6.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[6.604s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces' for CMake module files
+[6.607s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces' for CMake config files
+[6.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[6.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[6.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[6.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[6.611s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib'
+[6.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[6.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[6.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[6.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[6.614s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/bin'
+[6.615s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[6.615s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/python3.10/site-packages'
+[6.616s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/bin'
+[6.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[6.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[6.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.sh'
+[6.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.bash'
+[6.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[6.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[6.622s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation' with build type 'ament_cmake'
+[6.622s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation'
+[6.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation
+[7.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'pythonpath_develop')
+[7.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/share/robile_reach_goal/hook/pythonpath_develop.ps1'
+[7.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/share/robile_reach_goal/hook/pythonpath_develop.dsv'
+[7.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/share/robile_reach_goal/hook/pythonpath_develop.sh'
+[7.373s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal' for CMake module files
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal' for CMake config files
+[7.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal' returned '0': PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_reach_goal/build --no-deps symlink_data
+[7.377s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/bin'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/pkgconfig/robile_reach_goal.pc'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/lib/python3.10/site-packages'
+[7.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'pythonpath')
+[7.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.ps1'
+[7.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.dsv'
+[7.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/hook/pythonpath.sh'
+[7.382s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/bin'
+[7.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_reach_goal)
+[7.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/package.ps1'
+[7.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/package.dsv'
+[7.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/package.sh'
+[7.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/package.bash'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/robile_reach_goal/package.zsh'
+[7.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal/share/colcon-core/packages/robile_reach_goal)
+[7.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation' returned '0': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation
+[7.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation -- -j4 -l4
+[8.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo' returned '0': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo
+[8.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo -- -j4 -l4
+[8.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo' returned '0': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo -- -j4 -l4
+[8.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo
+[8.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[8.432s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo' for CMake module files
+[8.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo' returned '0': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description:/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_gazebo
+[8.433s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo' for CMake config files
+[8.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[8.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[8.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[8.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[8.436s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/bin'
+[8.436s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/lib/python3.10/site-packages'
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/bin'
+[8.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[8.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[8.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.sh'
+[8.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.bash'
+[8.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[8.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[8.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[8.441s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo' for CMake module files
+[8.441s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo' for CMake config files
+[8.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[8.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[8.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[8.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[8.444s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/bin'
+[8.444s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[8.444s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/lib/python3.10/site-packages'
+[8.444s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/bin'
+[8.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[8.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[8.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.sh'
+[8.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.bash'
+[8.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[8.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[8.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation' returned '0': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation -- -j4 -l4
+[8.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation
+[8.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_navigation)
+[8.775s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation' for CMake module files
+[8.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation' returned '0': AMENT_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_navigation
+[8.776s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation' for CMake config files
+[8.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_navigation', 'cmake_prefix_path')
+[8.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.ps1'
+[8.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.dsv'
+[8.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.sh'
+[8.778s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/lib'
+[8.778s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/bin'
+[8.778s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/lib/pkgconfig/robile_navigation.pc'
+[8.779s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/lib/python3.10/site-packages'
+[8.779s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/bin'
+[8.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.ps1'
+[8.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.dsv'
+[8.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.sh'
+[8.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.bash'
+[8.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.zsh'
+[8.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/colcon-core/packages/robile_navigation)
+[8.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_navigation)
+[8.782s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation' for CMake module files
+[8.783s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation' for CMake config files
+[8.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_navigation', 'cmake_prefix_path')
+[8.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.ps1'
+[8.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.dsv'
+[8.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/hook/cmake_prefix_path.sh'
+[8.785s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/lib'
+[8.785s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/bin'
+[8.785s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/lib/pkgconfig/robile_navigation.pc'
+[8.785s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/lib/python3.10/site-packages'
+[8.786s] Level 1:colcon.colcon_core.environment:checking '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/bin'
+[8.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.ps1'
+[8.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.dsv'
+[8.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.sh'
+[8.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.bash'
+[8.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/robile_navigation/package.zsh'
+[8.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_navigation/share/colcon-core/packages/robile_navigation)
+[8.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.789s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.797s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.797s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.115s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/local_setup.ps1'
+[9.117s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/_local_setup_util_ps1.py'
+[9.119s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/setup.ps1'
+[9.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/local_setup.sh'
+[9.122s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/_local_setup_util_sh.py'
+[9.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/setup.sh'
+[9.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/local_setup.bash'
+[9.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/setup.bash'
+[9.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/local_setup.zsh'
+[9.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/setup.zsh'

@@ -1,0 +1,23 @@
+[0.034s] Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_reach_goal:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_control_simple:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_bringup:/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/collective_robotics:/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces -- -j4 -l4
+[0.075s] [  2%] Built target robile_interfaces__cpp
+[0.079s] [ 12%] Built target robile_interfaces__rosidl_generator_c
+[0.080s] [ 12%] Built target ament_cmake_python_symlink_robile_interfaces
+[0.110s] [ 23%] Built target robile_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.111s] [ 33%] Built target robile_interfaces__rosidl_typesupport_cpp
+[0.118s] [ 43%] Built target robile_interfaces__rosidl_typesupport_introspection_cpp
+[0.146s] [ 53%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c
+[0.147s] [ 64%] Built target robile_interfaces__rosidl_typesupport_c
+[0.155s] [ 74%] Built target robile_interfaces__rosidl_typesupport_introspection_c
+[0.169s] [ 74%] Built target robile_interfaces
+[0.185s] [ 76%] Built target robile_interfaces__py
+[0.202s] [ 84%] Built target robile_interfaces__rosidl_generator_py
+[0.233s] [ 89%] Built target robile_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.240s] [ 94%] Built target robile_interfaces__rosidl_typesupport_c__pyext
+[0.241s] [100%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.822s] running egg_info
+[0.823s] writing robile_interfaces.egg-info/PKG-INFO
+[0.823s] writing dependency_links to robile_interfaces.egg-info/dependency_links.txt
+[0.823s] writing top-level names to robile_interfaces.egg-info/top_level.txt
+[0.828s] reading manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[0.830s] writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[0.865s] [100%] Built target ament_cmake_python_build_robile_interfaces_egg

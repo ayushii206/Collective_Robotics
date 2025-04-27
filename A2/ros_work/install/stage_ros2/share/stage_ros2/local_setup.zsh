@@ -1,0 +1,1 @@
+/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/stage_ros2/ament_cmake_environment_hooks/local_setup.zsh

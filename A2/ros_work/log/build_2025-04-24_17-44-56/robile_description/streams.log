@@ -1,0 +1,82 @@
+[0.039s] Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.269s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.452s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.647s] -- Detecting CXX compile features - done
+[0.658s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.939s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.285s] -- Configuring done (1.2s)
+[1.292s] -- Generating done (0.0s)
+[1.294s] -- Build files have been written to: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description
+[1.303s] Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/robile_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description
+[1.304s] Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description -- -j4 -l4
+[1.342s] Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description -- -j4 -l4
+[1.353s] Invoking command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description
+[1.358s] -- Install configuration: ""
+[1.359s] -- Execute custom install script
+[1.361s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_base.dae
+[1.367s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_wheel.dae
+[1.374s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/passive_caster_wheel/pivot.dae
+[1.381s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/passive_caster_wheel/wheel.dae
+[1.387s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/general_brick_housing.dae
+[1.393s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid.dae
+[1.399s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_blue.dae
+[1.405s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_green.dae
+[1.412s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_red.dae
+[1.418s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_yellow.dae
+[1.424s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/robile_brick_housing/wheeled_brick_housing.dae
+[1.433s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/sensors/hokuyo.dae
+[1.443s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/sensors/hokuyo_convex.dae
+[1.450s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//meshes/sensors/sick-lms1xx.dae
+[1.457s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/2_wheel_config.urdf.xacro
+[1.463s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/4_wheel_config.urdf.xacro
+[1.470s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/6_wheel_config.urdf.xacro
+[1.476s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//robots/robile3_config.urdf.xacro
+[1.484s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/brick_housing.urdf.xacro
+[1.490s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/common.xacro
+[1.497s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive.urdf.xacro
+[1.505s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive_wheel.urdf.xacro
+[1.512s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/materials.urdf.xacro
+[1.520s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/base_macros/passive_caster_wheel.urdf.xacro
+[1.526s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_active_wheel_brick.urdf.xacro
+[1.540s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_cpu_brick.urdf.xacro
+[1.546s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_empty_brick.urdf.xacro
+[1.553s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_master_battery_brick.urdf.xacro
+[1.560s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_passive_wheel_brick.urdf.xacro
+[1.571s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/robile_bricks/robile_slave_battery_brick.urdf.xacro
+[1.578s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/camera_front.gazebo.xacro
+[1.585s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/camera_front.urdf.xacro
+[1.592s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.gazebo.xacro
+[1.598s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.urdf.xacro
+[1.605s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx.urdf.xacro
+[1.612s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx_mount.urdf.xacro
+[1.619s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_robile.xacro
+[1.627s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_robile_laser_scanner.xacro
+[1.635s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_robile_laserscanner_camera.xacro
+[1.646s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_ros_control.xacro
+[1.654s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description//gazebo/gazebo_ros_planar_move.xacro
+[1.661s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/ament_index/resource_index/package_run_dependencies/robile_description
+[1.669s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/ament_index/resource_index/parent_prefix_path/robile_description
+[1.675s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/ament_prefix_path.sh
+[1.681s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/ament_prefix_path.dsv
+[1.688s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/path.sh
+[1.695s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/environment/path.dsv
+[1.702s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.bash
+[1.709s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.sh
+[1.716s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.zsh
+[1.723s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/local_setup.dsv
+[1.730s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.dsv
+[1.738s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/ament_index/resource_index/packages/robile_description
+[1.746s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/cmake/robile_descriptionConfig.cmake
+[1.756s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/cmake/robile_descriptionConfig-version.cmake
+[1.763s] -- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_description/share/robile_description/package.xml
+[1.773s] Invoked command in '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_description

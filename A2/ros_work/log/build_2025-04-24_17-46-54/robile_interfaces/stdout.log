@@ -1,0 +1,165 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done (4.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/robile_interfaces
+[  2%] Built target robile_interfaces__cpp
+[ 12%] Built target robile_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_robile_interfaces
+[ 23%] Built target robile_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 33%] Built target robile_interfaces__rosidl_typesupport_introspection_cpp
+[ 43%] Built target robile_interfaces__rosidl_typesupport_cpp
+[ 53%] Built target robile_interfaces__rosidl_typesupport_c
+[ 64%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target robile_interfaces__rosidl_typesupport_introspection_c
+[ 74%] Built target robile_interfaces
+[ 76%] Built target robile_interfaces__py
+[ 84%] Built target robile_interfaces__rosidl_generator_py
+[ 89%] Built target robile_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target robile_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target robile_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing robile_interfaces.egg-info/PKG-INFO
+writing dependency_links to robile_interfaces.egg-info/dependency_links.txt
+writing top-level names to robile_interfaces.egg-info/top_level.txt
+reading manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'robile_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robile_interfaces_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/ament_index/resource_index/rosidl_interfaces/robile_interfaces
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__functions.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__struct.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__functions.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__struct.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled_array.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/library_path.sh
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/library_path.dsv
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__builder.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__struct.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__traits.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__type_support.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__builder.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__struct.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__traits.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__type_support.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/position_labelled_array.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/include/robile_interfaces/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/__init__.py
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/_robile_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/librobile_interfaces__rosidl_generator_py.so
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/__init__.py
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled.py
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array.py
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array_s.c
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_s.c
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/robile_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelled.idl
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelledArray.idl
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelled.msg
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/msg/PositionLabelledArray.msg
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/ament_index/resource_index/package_run_dependencies/robile_interfaces
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/ament_index/resource_index/parent_prefix_path/robile_interfaces
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/path.sh
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/environment/path.dsv
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/local_setup.bash
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/local_setup.sh
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/local_setup.zsh
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/local_setup.dsv
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.dsv
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/ament_index/resource_index/packages/robile_interfaces
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfacesConfig.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfacesConfig-version.cmake
+-- Symlinking: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/package.xml
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces'...
+Compiling '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/__init__.py'...
+Listing '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg'...
+Compiling '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/__init__.py'...
+Compiling '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled.py'...
+Compiling '/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/local/lib/python3.10/dist-packages/robile_interfaces/msg/_position_labelled_array.py'...
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/lib/librobile_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/robile_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/install/robile_interfaces/share/robile_interfaces/cmake/export_robile_interfaces__rosidl_generator_pyExport-noconfig.cmake

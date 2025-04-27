@@ -1,0 +1,308 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RELEASE-b003738f96758bb7a4b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "libstage",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libstage-RELEASE-aed9db9eaa7dbd92c267.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libstage",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-RELEASE-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/ctrl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.ctrl-RELEASE-046f1d3106530cc795ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "examples/ctrl",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"build" : "assets",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-assets-RELEASE-627a54e76a463d405057.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "assets"
+				},
+				{
+					"build" : "worlds",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-worlds-RELEASE-0022d8acf693d005676c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "worlds"
+				},
+				{
+					"build" : "worlds/benchmark",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-worlds.benchmark-RELEASE-b5dcf9fe56892549f705.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "worlds/benchmark",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "worlds/bitmaps",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-worlds.bitmaps-RELEASE-dc5f4a430d462d5d592b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "worlds/bitmaps"
+				},
+				{
+					"build" : "worlds/wifi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-worlds.wifi-RELEASE-6f02d9907494c51319b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.7"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "worlds/wifi"
+				}
+			],
+			"name" : "RELEASE",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "Stage",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "dynamic::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-dynamic-RELEASE-532604b4a9f741ddc8cb.json",
+					"name" : "dynamic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "expand_pioneer::@1a6822d6749951a0f70b",
+					"jsonFile" : "target-expand_pioneer-RELEASE-429c37918138fb062fa1.json",
+					"name" : "expand_pioneer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "expand_swarm::@1a6822d6749951a0f70b",
+					"jsonFile" : "target-expand_swarm-RELEASE-19f70f9ee1dc2ff03350.json",
+					"name" : "expand_swarm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fasr::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-fasr-RELEASE-5c04eac0a54db20b2173.json",
+					"name" : "fasr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fasr2::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-fasr2-RELEASE-b2d8f3bfe8e2844ea783.json",
+					"name" : "fasr2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lasernoise::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-lasernoise-RELEASE-4344b562ccc77477c908.json",
+					"name" : "lasernoise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pioneer_flocking::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-pioneer_flocking-RELEASE-a48c21b0d2e1544dac79.json",
+					"name" : "pioneer_flocking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rasterize::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-rasterize-RELEASE-4afc4d334be22b9061bc.json",
+					"name" : "rasterize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sink::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-sink-RELEASE-e8e9ff4b1bbc0b8dfc88.json",
+					"name" : "sink",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "source::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-source-RELEASE-ea15627d473e82195d24.json",
+					"name" : "source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stage::@6ba44a9ac7ace0708564",
+					"jsonFile" : "target-stage-RELEASE-c1d9dc937dbb45c6e10c.json",
+					"name" : "stage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stagebinary::@6ba44a9ac7ace0708564",
+					"jsonFile" : "target-stagebinary-RELEASE-66d3b247174b117469ff.json",
+					"name" : "stagebinary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RELEASE-cb0d68e3fcf0a2f9b704.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "wander::@9bee9553c6af5f7157eb",
+					"jsonFile" : "target-wander-RELEASE-3fde4a573edbd4d0e5e8.json",
+					"name" : "wander",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/build/Stage",
+		"source" : "/home/student/MAS/MAS_Program2024/MAS-Program/Collective_Robotics/ros_work/src/stage_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
