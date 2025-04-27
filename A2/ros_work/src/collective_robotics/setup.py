@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+from glob import glob
+import os
 
 package_name = 'collective_robotics'
 
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,6 +28,9 @@ setup(
             'wall_follower= collective_robotics.wall_follower:main',
             'go_to_goal= collective_robotics.move_to_goal:main',
             'vacum_bot= collective_robotics.vaccum_robot:main',
+            'multi_bot_task1_stop = collective_robotics.multi_robot_t1:main',
+            'multi_bot_task2_wait = collective_robotics.multi_robot_t2_wait:main',
+            'multi_bot_task3_aggregate = collective_robotics.multi_robot_t3_aggregate:main',
         ],
     },
 )
