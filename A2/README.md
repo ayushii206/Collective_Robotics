@@ -32,3 +32,21 @@ ros2 run collective_robotics navigation
 
 it should navigate in the environment
 
+To run Part b (Multi-Robot System) -- in my case its 5 beacuse 20 Robots were creating a heavy load in my system, i have made a launch file for each of the task 
+
+For Part b task 1
+
+```bash
+ros2 launch collective_robotics multi_robot_behavior.launch.py
+```
+For Part b task 2
+
+```bash
+ros2 launch collective_robotics multi_robot_behavior_wait.launch.py
+```
+For Part c task 3 (Still correction required)
+
+```bash
+ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py
+```
+
