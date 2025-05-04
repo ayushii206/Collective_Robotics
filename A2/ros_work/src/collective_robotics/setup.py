@@ -28,6 +28,7 @@ setup(
             'wall_follower= collective_robotics.wall_follower:main',
             'go_to_goal= collective_robotics.move_to_goal:main',
             'vacum_bot= collective_robotics.vaccum_robot:main',
+            'cleaning_bot= collective_robotics.vacc:main',
             'multi_bot_task1_stop = collective_robotics.multi_robot_t1:main',
             'multi_bot_task2_wait = collective_robotics.multi_robot_t2_wait:main',
             'multi_bot_task3_aggregate = collective_robotics.multi_robot_t3_aggregate:main',

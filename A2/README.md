@@ -56,16 +56,18 @@ Result: The robot should navigate in the environment following the walls on its 
 C. Open another terminal and run vaccum cleaning node:
 
 ```bash
-ros2 run collective_robotics ...
+ros2 run collective_robotics cleaning_bot
 ```
 
 Result: The robot should navigate in the environment showing the behavior of a vaccum cleaning robot.
 
 #### Strategies to enure  that almost everything gets cleaned:
 
-1.
-2.
-3.
+1. The robot moves in a straight line for a fixed duration and then makes a sharp 90° turn (alternating left and right), mimicking the pattern of mowing or cleaning rows. This ensures systematic sweeping of the environment.
+2. Laser scan data is continuously monitored. If the robot encounters an obstacle (e.g., wall or object within 0.4m), it stops forward motion and rotates away, helping it avoid getting stuck and continue coverage.
+3. The robot tracks which 0.5m × 0.5m grid cells it has visited using odometry data. This allows it to estimate how much of the area has been covered and gives feedback on cleaning effectiveness.
+4. Once the robot has visited approximately 90% of the predefined area (based on the number of unique grid cells), it automatically stops, assuming the area has been sufficiently cleaned.
+5. Alternating the turning direction after each row (left/right) minimizes redundant turns and helps systematically cover adjacent paths without excessive overlap.
 
 D. Open another terminal and run the following nodes for different behaviors of the robot:
 
