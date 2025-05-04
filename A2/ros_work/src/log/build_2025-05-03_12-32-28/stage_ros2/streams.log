@@ -1,4 +1,0 @@
-[0.685s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/stage_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayushi/Collective_Robotics/A2/ros_work/src/install/stage_ros2
-[1.060s] [0mCMake Error: The source directory "/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2" does not appear to contain CMakeLists.txt.
-[1.060s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[1.106s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/stage_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayushi/Collective_Robotics/A2/ros_work/src/install/stage_ros2
