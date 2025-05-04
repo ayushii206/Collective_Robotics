@@ -1,0 +1,214 @@
+[3.343s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.344s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75f7db300190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f7db4c3b80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f7db4c3b80>>, mixin_verb=('build',))
+[9.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.437s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayushi/Collective_Robotics/A2/ros_work/src'
+[9.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[9.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[9.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[9.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[9.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[9.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[9.577s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['ignore', 'ignore_ament_install']
+[9.577s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'ignore'
+[9.578s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'ignore_ament_install'
+[9.578s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['colcon_pkg']
+[9.578s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'colcon_pkg'
+[9.578s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['colcon_meta']
+[9.578s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'colcon_meta'
+[9.579s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['ros']
+[9.579s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'ros'
+[9.579s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['cmake', 'python']
+[9.579s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'cmake'
+[9.579s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'python'
+[9.580s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extensions ['python_setup_py']
+[9.580s] Level 1:colcon.colcon_core.package_identification:_identify(Robile) by extension 'python_setup_py'
+[9.580s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extensions ['ignore', 'ignore_ament_install']
+[9.581s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'ignore'
+[9.581s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'ignore_ament_install'
+[9.581s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extensions ['colcon_pkg']
+[9.581s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'colcon_pkg'
+[9.581s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extensions ['colcon_meta']
+[9.582s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'colcon_meta'
+[9.582s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extensions ['ros']
+[9.582s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'ros'
+[9.582s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extensions ['cmake', 'python']
+[9.583s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'cmake'
+[9.583s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'python'
+[9.583s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extensions ['python_setup_py']
+[9.583s] Level 1:colcon.colcon_core.package_identification:_identify(Stage) by extension 'python_setup_py'
+[9.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[9.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[9.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[9.585s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extensions ['ignore', 'ignore_ament_install']
+[9.585s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extension 'ignore'
+[9.586s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extension 'ignore_ament_install'
+[9.586s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extensions ['colcon_pkg']
+[9.586s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extension 'colcon_pkg'
+[9.586s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extensions ['colcon_meta']
+[9.587s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extension 'colcon_meta'
+[9.587s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extensions ['ros']
+[9.587s] Level 1:colcon.colcon_core.package_identification:_identify(collective_robotics) by extension 'ros'
+[9.611s] DEBUG:colcon.colcon_core.package_identification:Package 'collective_robotics' with type 'ros.ament_python' and name 'collective_robotics'
+[9.611s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[9.611s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[9.611s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[9.611s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[9.611s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[9.611s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['ignore', 'ignore_ament_install']
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'ignore'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'ignore_ament_install'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['colcon_pkg']
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'colcon_pkg'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['colcon_meta']
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'colcon_meta'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['ros']
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'ros'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['cmake', 'python']
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'cmake'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'python'
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extensions ['python_setup_py']
+[9.612s] Level 1:colcon.colcon_core.package_identification:_identify(robile_description) by extension 'python_setup_py'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'ignore'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'ignore_ament_install'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['colcon_pkg']
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'colcon_pkg'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['colcon_meta']
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'colcon_meta'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['ros']
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'ros'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['cmake', 'python']
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'cmake'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'python'
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extensions ['python_setup_py']
+[9.613s] Level 1:colcon.colcon_core.package_identification:_identify(robile_gazebo) by extension 'python_setup_py'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'ignore'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'ignore_ament_install'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['colcon_pkg']
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'colcon_pkg'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['colcon_meta']
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'colcon_meta'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['ros']
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'ros'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['cmake', 'python']
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'cmake'
+[9.614s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'python'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extensions ['python_setup_py']
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_interfaces) by extension 'python_setup_py'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'ignore'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'ignore_ament_install'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['colcon_pkg']
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'colcon_pkg'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['colcon_meta']
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'colcon_meta'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['ros']
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'ros'
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['cmake', 'python']
+[9.615s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'cmake'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'python'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extensions ['python_setup_py']
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(robile_navigation) by extension 'python_setup_py'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'ignore'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'ignore_ament_install'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extensions ['colcon_pkg']
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'colcon_pkg'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extensions ['colcon_meta']
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'colcon_meta'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extensions ['ros']
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'ros'
+[9.616s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extensions ['cmake', 'python']
+[9.617s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'cmake'
+[9.617s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'python'
+[9.617s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extensions ['python_setup_py']
+[9.617s] Level 1:colcon.colcon_core.package_identification:_identify(stage_ros2) by extension 'python_setup_py'
+[9.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[9.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[9.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[9.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[9.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[10.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[10.141s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[10.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_args' from command line to 'None'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_target' from command line to 'None'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[10.321s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.321s] DEBUG:colcon.colcon_core.verb:Building package 'collective_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics', 'merge_install': False, 'path': '/home/ayushi/Collective_Robotics/A2/ros_work/src/collective_robotics', 'symlink_install': True, 'test_result_base': None}
+[10.322s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayushi/Collective_Robotics/A2/ros_work/src/collective_robotics' with build type 'ament_python'
+[10.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'ament_prefix_path')
+[10.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.ps1'
+[10.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.dsv'
+[10.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.sh'
+[10.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayushi/Collective_Robotics/A2/ros_work/src/collective_robotics'
+[11.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics': PYTHONPATH=/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/build --no-deps symlink_data
+[14.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'pythonpath_develop')
+[14.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.ps1'
+[14.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics' returned '0': PYTHONPATH=/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/build --no-deps symlink_data
+[14.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.dsv'
+[14.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.sh'
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics' for CMake module files
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics' for CMake config files
+[14.620s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/lib'
+[14.620s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/bin'
+[14.620s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/lib/pkgconfig/collective_robotics.pc'
+[14.620s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/lib/python3.10/site-packages'
+[14.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'pythonpath')
+[14.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/hook/pythonpath.ps1'
+[14.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/hook/pythonpath.dsv'
+[14.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/hook/pythonpath.sh'
+[14.622s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/bin'
+[14.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(collective_robotics)
+[14.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/package.ps1'
+[14.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/package.dsv'
+[14.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/package.sh'
+[14.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/package.bash'
+[14.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/collective_robotics/package.zsh'
+[14.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayushi/Collective_Robotics/A2/ros_work/src/install/collective_robotics/share/colcon-core/packages/collective_robotics)
+[14.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.673s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.673s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.673s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.788s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/local_setup.ps1'
+[14.819s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/_local_setup_util_ps1.py'
+[14.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/setup.ps1'
+[14.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/local_setup.sh'
+[14.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/_local_setup_util_sh.py'
+[14.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/setup.sh'
+[14.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/local_setup.bash'
+[14.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/setup.bash'
+[14.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/local_setup.zsh'
+[14.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/src/install/setup.zsh'

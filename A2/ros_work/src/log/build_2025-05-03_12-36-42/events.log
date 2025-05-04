@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000303] (collective_robotics) JobQueued: {'identifier': 'collective_robotics', 'dependencies': OrderedDict()}
+[0.000440] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict()}
+[0.000483] (collective_robotics) JobStarted: {'identifier': 'collective_robotics'}
+[0.020098] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[0.098891] (-) TimerEvent: {}
+[0.199297] (-) TimerEvent: {}
+[0.299654] (-) TimerEvent: {}
+[0.400395] (-) TimerEvent: {}
+[0.500640] (-) TimerEvent: {}
+[0.542909] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[0.544351] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ayushi/Collective_Robotics/A2/ros_work/src/install/stage_ros2'], 'cwd': '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayushi'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayushi'), ('OLDPWD', '/home/ayushi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '237672'), ('SYSTEMD_EXEC_PID', '238027'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '244737'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayushi'), ('JOURNAL_STREAM', '8:1799322'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayushi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ayushi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayushi-HP-Pavilion-Notebook:@/tmp/.ICE-unix/238000,unix/ayushi-HP-Pavilion-Notebook:/tmp/.ICE-unix/238000'), ('INVOCATION_ID', 'c269dfc54bbb4339a376615d0a0a56c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50c62e61-c69b-4a7d-9430-81a257908d68'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayushi/Collective_Robotics/A2/ros_work/src/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.567261] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600753] (-) TimerEvent: {}
+[0.701218] (-) TimerEvent: {}
+[0.796024] (stage_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.801291] (-) TimerEvent: {}
+[0.804936] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.862868] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.868660] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.877316] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.896251] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.902301] (-) TimerEvent: {}
+[0.930432] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.995853] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.997922] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002332] (-) TimerEvent: {}
+[1.102676] (-) TimerEvent: {}
+[1.163162] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.202772] (-) TimerEvent: {}
+[1.252467] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.281946] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.302875] (-) TimerEvent: {}
+[1.344691] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.389210] (stage_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.389555] (stage_ros2) StderrLine: {'line': b'  By not providing "Findstage.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.389705] (stage_ros2) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "stage", but\n'}
+[1.389839] (stage_ros2) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.389978] (stage_ros2) StderrLine: {'line': b'\n'}
+[1.390126] (stage_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "stage" with any of\n'}
+[1.390262] (stage_ros2) StderrLine: {'line': b'  the following names:\n'}
+[1.390382] (stage_ros2) StderrLine: {'line': b'\n'}
+[1.390527] (stage_ros2) StderrLine: {'line': b'    stageConfig.cmake\n'}
+[1.390658] (stage_ros2) StderrLine: {'line': b'    stage-config.cmake\n'}
+[1.390775] (stage_ros2) StderrLine: {'line': b'\n'}
+[1.390887] (stage_ros2) StderrLine: {'line': b'  Add the installation prefix of "stage" to CMAKE_PREFIX_PATH or set\n'}
+[1.391006] (stage_ros2) StderrLine: {'line': b'  "stage_DIR" to a directory containing one of the above files.  If "stage"\n'}
+[1.391149] (stage_ros2) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.391273] (stage_ros2) StderrLine: {'line': b'  installed.\n'}
+[1.391392] (stage_ros2) StderrLine: {'line': b'\n'}
+[1.391508] (stage_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.391623] (stage_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.391751] (stage_ros2) StdoutLine: {'line': b'See also "/home/ayushi/Collective_Robotics/A2/ros_work/src/build/stage_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[1.399168] (stage_ros2) CommandEnded: {'returncode': 1}
+[1.402981] (-) TimerEvent: {}
+[1.439639] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 1}
+[1.503252] (-) TimerEvent: {}
+[1.604095] (-) TimerEvent: {}
+[1.619551] (collective_robotics) JobEnded: {'identifier': 'collective_robotics', 'rc': 'SIGINT'}
+[1.631760] (-) EventReactorShutdown: {}
