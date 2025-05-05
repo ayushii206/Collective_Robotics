@@ -86,8 +86,14 @@ Result: The robot should navigate in the environment showing the behavior of a v
 D. Open another terminal and run the following node for different behaviors of the robot:
 
 - Random goals are generated near the robot one after the other and the robot reaches those goals avoiding obstacles
+
 ```bash
 ros2 run collective_robotics move_to_goal 
+```
+- The robot moves straight until an obstacle is detected, then makes a sharp 90-degree turn (left or right) based on the obstacle's position and continues forward.
+
+```bash
+ros2 run collective_robotics random_turning
 ```
 
 ### TASK 2
