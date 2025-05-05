@@ -1,0 +1,25 @@
+[1.243s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics': PYTHONPATH=/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/build --no-deps symlink_data
+[1.685s] running develop
+[1.991s] running egg_info
+[2.012s] writing collective_robotics.egg-info/PKG-INFO
+[2.013s] writing dependency_links to collective_robotics.egg-info/dependency_links.txt
+[2.013s] writing entry points to collective_robotics.egg-info/entry_points.txt
+[2.013s] writing requirements to collective_robotics.egg-info/requires.txt
+[2.014s] writing top-level names to collective_robotics.egg-info/top_level.txt
+[2.060s] reading manifest file 'collective_robotics.egg-info/SOURCES.txt'
+[2.062s] writing manifest file 'collective_robotics.egg-info/SOURCES.txt'
+[2.084s] running build_ext
+[2.084s] Creating /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective-robotics.egg-link (link to .)
+[2.086s] Installing cleaning_bot script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.086s] Installing go_to_goal script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.086s] Installing multi_bot_task1_stop script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.087s] Installing multi_bot_task2_wait script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.087s] Installing multi_bot_task3_aggregate script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.087s] Installing navigation script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.087s] Installing obstacle_avoid script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.087s] Installing vacum_bot script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.088s] Installing wall_follower script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics
+[2.088s] 
+[2.088s] Installed /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics
+[2.088s] running symlink_data
+[2.135s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics' returned '0': PYTHONPATH=/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/build --no-deps symlink_data

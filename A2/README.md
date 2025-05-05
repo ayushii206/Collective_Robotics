@@ -77,21 +77,24 @@ ros2 run collective_robotics ...
 
 ### TASK 2
 
-To run Part b (Multi-Robot System) -- in my case its 5 beacuse 20 Robots were creating a heavy load in my system, i have made a launch file for each of the task 
-
-For Part b task 1
+A. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_behavior.launch.py
+ros2 launch collective_robotics multi_robot_behavior.launch.py world:=cave_multi
 ```
-For Part b task 2
+Result: The robots stop when in close proximity with each other.
+
+B. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_behavior_wait.launch.py
+ros2 launch collective_robotics multi_robot_behavior_wait.launch.py world:=cave_multi
 ```
-For Part c task 3 (Still correction required)
+Result: The robot starts  moving again after waiting a certain period of time
+
+C. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py
+ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py world:=cave_multi
 ```
+
 
