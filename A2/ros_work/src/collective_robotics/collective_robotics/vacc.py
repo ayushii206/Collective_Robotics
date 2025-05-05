@@ -25,11 +25,10 @@ class VacuumCleaner(Node):
         self.state_timer = 0
         self.forward_ticks = 50
         self.turn_ticks = 20
-        self.zigzag_direction = 1  # 1 = left, -1 = right
+        self.zigzag_direction = 1
 
         self.timer = self.create_timer(0.1, self.navigate)
 
-        # Area bounding box for max coverage
         self.min_x, self.max_x = -5, 5
         self.min_y, self.max_y = -5, 5
         self.total_cells = int((self.max_x - self.min_x) / self.grid_size) * int((self.max_y - self.min_y) / self.grid_size)
@@ -49,24 +48,20 @@ class VacuumCleaner(Node):
         if not self.laser_ranges:
             return
 
-        # Track visited grid cells
         cell_x = round(self.x / self.grid_size)
         cell_y = round(self.y / self.grid_size)
         self.visited.add((cell_x, cell_y))
 
-        # Check coverage
         coverage = len(self.visited) / self.total_cells
         self.get_logger().info(f"Visited {len(self.visited)} cells. Coverage: {coverage*100:.1f}%")
 
-        # Stop if area mostly covered
         if coverage >= 0.9:
             self.get_logger().info("Coverage complete! Stopping.")
-            self.cmd_pub.publish(Twist())  # Stop the robot
+            self.cmd_pub.publish(Twist())
             return
 
         twist = Twist()
 
-        # Basic obstacle avoidance
         min_distance = min([r for r in self.laser_ranges if not math.isinf(r) and not math.isnan(r)], default=10.0)
         if min_distance < 0.4:
             self.get_logger().warn("Obstacle too close! Rotating.")
@@ -74,7 +69,6 @@ class VacuumCleaner(Node):
             self.cmd_pub.publish(twist)
             return
 
-        # Main movement logic
         if self.state == 'FORWARD':
             twist.linear.x = 0.2
             self.state_timer += 1
@@ -87,7 +81,7 @@ class VacuumCleaner(Node):
             if self.state_timer > self.turn_ticks:
                 self.state = 'FORWARD'
                 self.state_timer = 0
-                self.zigzag_direction *= -1  # Alternate turns
+                self.zigzag_direction *= -1
 
         self.cmd_pub.publish(twist)
 

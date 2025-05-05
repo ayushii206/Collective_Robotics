@@ -61,7 +61,6 @@ class SmartRobotClusterAvoider(Node):
     def laser_callback(self, msg):
         now = self.get_clock().now().seconds_nanoseconds()[0]
 
-        # Escaping State
         if self.escaping:
             if now - self.escape_start_time >= self.ESCAPE_DURATION:
                 self.escaping = False
@@ -73,7 +72,6 @@ class SmartRobotClusterAvoider(Node):
                 self.cmd_vel_pub.publish(twist)
                 return
 
-        # Stopped State
         if self.is_stopped:
             if now - self.stop_time >= self.WAITING_TIME:
                 self.get_logger().info(f"[{self.robot_name}] Done waiting, starting escape.")
@@ -83,7 +81,6 @@ class SmartRobotClusterAvoider(Node):
                 self.publish_stop()
                 return
 
-        # Normal Moving State
         min_distance = min(msg.ranges)
         min_index = msg.ranges.index(min_distance)
         angle = msg.angle_min + min_index * msg.angle_increment

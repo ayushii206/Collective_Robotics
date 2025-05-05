@@ -18,21 +18,18 @@ class SmartSwarmRobot(Node):
         self.all_robots = ["robot_0", "robot_1", "robot_2", "robot_3", "robot_4"]
         self.other_robots = [name for name in self.all_robots if name != self.robot_name]
 
-        # State machine
         self.state = "MOVING_FORWARD"
         self.wait_start_time = None
         self.WAIT_DURATION = 5.0  # seconds
 
         self.positions = {}
 
-        # Subscriptions
         self.create_subscription(LaserScan, f'/{self.robot_name}/base_scan', self.laser_callback, 10)
         self.create_subscription(Odometry, f'/{self.robot_name}/odom', self.my_odom_callback, 10)
 
         for other in self.other_robots:
             self.create_subscription(Odometry, f'/{other}/odom', lambda msg, other=other: self.odom_callback(msg, other), 10)
 
-        # Publisher
         self.cmd_vel_pub = self.create_publisher(Twist, f'/{self.robot_name}/cmd_vel', 10)
 
         self.my_x = 0.0
@@ -60,13 +57,11 @@ class SmartSwarmRobot(Node):
 
         min_distance = min(msg.ranges)
 
-        # 1. Emergency wall avoidance first
         if min_distance < 0.4:
             self.get_logger().warn(f"[{self.robot_name}] Wall too close! Avoiding...")
             self.avoid_wall()
             return
 
-        # 2. Check robot proximity if not wall avoiding
         robot_nearby = self.detect_nearby_robot()
 
         if self.state == "MOVING_FORWARD":
@@ -110,15 +105,14 @@ class SmartSwarmRobot(Node):
     def escape_left(self):
         twist = Twist()
         twist.linear.x = 0.0
-        twist.angular.z = 0.5  # Turn left
+        twist.angular.z = 0.5 
         self.cmd_vel_pub.publish(twist)
-        # After a small time, go back to moving forward
         self.state = "MOVING_FORWARD"
 
     def avoid_wall(self):
         twist = Twist()
         twist.linear.x = 0.0
-        twist.angular.z = random.choice([-1.0, 1.0])  # Turn randomly
+        twist.angular.z = random.choice([-1.0, 1.0])  
         self.cmd_vel_pub.publish(twist)
 
 def main(args=None):

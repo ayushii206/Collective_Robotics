@@ -18,13 +18,13 @@ class VacuumCleaner(Node):
         self.yaw = 0.0
         self.laser_ranges = []
 
-        self.visited = set()  # Store visited cells (rounded x, y)
-        self.grid_size = 0.5  # Size of each "cell" in meters
+        self.visited = set()
+        self.grid_size = 0.5
 
         self.moving_forward = True
-        self.zigzag_direction = 1  # 1 = left, -1 = right
+        self.zigzag_direction = 1
         self.forward_timer = 0
-        self.max_forward_time = 50  # Ticks to move forward before zig-zag
+        self.max_forward_time = 50
 
         self.timer = self.create_timer(0.1, self.navigate)
         self.get_logger().info("Vacuum Cleaner Node Started")
@@ -40,37 +40,31 @@ class VacuumCleaner(Node):
 
     def navigate(self):
         if not self.laser_ranges:
-            return  # No laser data yet
+            return 
 
-        # Update visited cells
         cell_x = round(self.x / self.grid_size)
         cell_y = round(self.y / self.grid_size)
         self.visited.add((cell_x, cell_y))
 
         twist = Twist()
 
-        # Obstacle avoidance
         min_distance = min([r for r in self.laser_ranges if not math.isinf(r) and not math.isnan(r)], default=10.0)
 
         if min_distance < 0.4:
-            # Obstacle detected
             twist.linear.x = 0.0
-            twist.angular.z = 0.5  # Turn left when stuck
+            twist.angular.z = 0.5  
             self.get_logger().info("Obstacle detected! Turning.")
         else:
-            # Zigzag movement
             if self.forward_timer < self.max_forward_time:
                 twist.linear.x = 0.2
                 twist.angular.z = 0.2 * self.zigzag_direction
                 self.forward_timer += 1
             else:
-                # After some time, change direction
                 self.zigzag_direction *= -1
                 self.forward_timer = 0
 
         self.cmd_pub.publish(twist)
 
-        # Display visited cells count
         self.get_logger().info(f"Visited {len(self.visited)} cells.")
 
     def euler_from_quaternion(self, q):

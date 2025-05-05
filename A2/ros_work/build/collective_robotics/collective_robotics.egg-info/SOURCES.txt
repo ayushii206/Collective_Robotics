@@ -7,8 +7,8 @@ collective_robotics/multi_robot_t1.py
 collective_robotics/multi_robot_t2_wait.py
 collective_robotics/multi_robot_t3_aggregate.py
 collective_robotics/obstacle_avoidance.py
+collective_robotics/random_turning.py
 collective_robotics/task1.py
-collective_robotics/task1_copy.py
 collective_robotics/vacc.py
 collective_robotics/vaccum_robot.py
 collective_robotics/wall_follower.py

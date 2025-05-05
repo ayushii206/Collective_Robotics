@@ -21,12 +21,26 @@ sudo ldconfig
 
 ## Step 2: Clone the Github repository or unzip the project folder
 
+A. To clone the repository:
+
+```bash
+cd 
+git clone https://github.com/ayushii206/Collective_Robotics.git
+```
+B. OR Unzip the project folder
+
 ## Step 3: Navigate to the `ros_work` folder and build the workspace
 
 ```bash
 cd ros_work
 colcon build --symlink-install 
 ```
+OR this command if cloned from GitHub
+
+```bash
+cd /Collective_Robotics/A2/ros_work
+```
+
 ## Step 4: To run the tasks follow the given steps:
 
 Open a terminal and run the following command to load the environment:
@@ -69,10 +83,11 @@ Result: The robot should navigate in the environment showing the behavior of a v
 4. Once the robot has visited approximately 90% of the predefined area (based on the number of unique grid cells), it automatically stops, assuming the area has been sufficiently cleaned.
 5. Alternating the turning direction after each row (left/right) minimizes redundant turns and helps systematically cover adjacent paths without excessive overlap.
 
-D. Open another terminal and run the following nodes for different behaviors of the robot:
+D. Open another terminal and run the following node for different behaviors of the robot:
 
+- Random goals are generated near the robot one after the other and the robot reaches those goals avoiding obstacles
 ```bash
-ros2 run collective_robotics ...
+ros2 run collective_robotics move_to_goal 
 ```
 
 ### TASK 2
@@ -98,5 +113,26 @@ C. Open the terminal and run the following launch file:
 ```bash
 ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py world:=swarm5 robot_count:=5
 ```
+
+### Comparison between Gazebo and PlayerStage
+
+| Feature                     | **Gazebo**                                      | **Player/Stage**                              |
+|-----------------------------|-------------------------------------------------|-----------------------------------------------|
+| **Type**                     | 3D robot simulator                              | 2D (Player) and 3D (Stage) robot simulators   |
+| **Development Focus**        | Realistic physics and sensor simulation        | Robot control with a focus on multi-robot systems |
+| **Environment**              | 3D environments with realistic physics          | 2D (Player) and simple 3D (Stage) environments |
+| **Physics Engine**           | ODE, Bullet, DART                              | Simpler physics                               |
+| **ROS Integration**          | Tight integration with ROS                      | Has ROS integration, but not as seamless      |
+| **Sensors**                  | High fidelity sensors (LIDAR, cameras, IMUs, etc.) | Basic sensors like lasers, cameras, and range finders |
+| **Graphics**                 | Advanced 3D rendering with textures and lighting | Limited 2D/3D graphics                        |
+| **Multi-Robot Simulation**   | Supports large-scale multi-robot simulations    | Focuses on multi-robot simulations in 2D     |
+| **Complexity**               | More complex setup and configuration            | Easier to set up and use                     |
+| **Realism**                  | Highly realistic physics and environment        | Simpler physics and environment              |
+| **Compatibility**            | Cross-platform (Linux, Windows, macOS)          | Primarily Linux-based                        |
+| **Community & Support**      | Large community, extensive documentation        | Smaller community, fewer resources           |
+| **Development Status**       | Actively developed and maintained by Open Robotics | Less actively developed                      |
+| **Use Cases**                | High-fidelity robot simulation, autonomous vehicles | Multi-robot research, basic robot control tasks |
+| **Customization**            | Extensive (custom models, environments, plugins) | Limited compared to Gazebo                   |
+
 
 
