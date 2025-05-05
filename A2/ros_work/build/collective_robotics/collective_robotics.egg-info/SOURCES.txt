@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/collective_robotics/collective_robotics.egg-info/PKG-INFO
-../../build/collective_robotics/collective_robotics.egg-info/SOURCES.txt
-../../build/collective_robotics/collective_robotics.egg-info/dependency_links.txt
-../../build/collective_robotics/collective_robotics.egg-info/entry_points.txt
-../../build/collective_robotics/collective_robotics.egg-info/requires.txt
-../../build/collective_robotics/collective_robotics.egg-info/top_level.txt
-../../build/collective_robotics/collective_robotics.egg-info/zip-safe
 collective_robotics/__init__.py
 collective_robotics/move_to_goal.py
 collective_robotics/multi_robot_t1.py
@@ -28,6 +21,5 @@ collective_robotics.egg-info/top_level.txt
 collective_robotics.egg-info/zip-safe
 launch/multi_robot_behavior.launch.py
 launch/multi_robot_behavior_wait.launch.py
-launch/multi_robot_sim_with_stage.launch.py
 launch/multi_robot_swarm_aggregate.launch.py
 resource/collective_robotics

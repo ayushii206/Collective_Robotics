@@ -10,6 +10,7 @@
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/new_map.png
+/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/new_maze.png
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
@@ -23,8 +24,10 @@
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/robots.inc
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/lines.world
-/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new.world
+/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new_maze.world
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/straden.world
+/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/swarm20.world
+/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/swarm5.world
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
 /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz

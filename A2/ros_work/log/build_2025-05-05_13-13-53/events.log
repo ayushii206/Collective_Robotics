@@ -1,0 +1,548 @@
+[0.000000] (-) TimerEvent: {}
+[0.001013] (collective_robotics) JobQueued: {'identifier': 'collective_robotics', 'dependencies': OrderedDict()}
+[0.001122] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict()}
+[0.001180] (collective_robotics) JobStarted: {'identifier': 'collective_robotics'}
+[0.011814] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[0.099759] (-) TimerEvent: {}
+[0.200041] (-) TimerEvent: {}
+[0.300313] (-) TimerEvent: {}
+[0.400665] (-) TimerEvent: {}
+[0.425097] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[0.425828] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2'], 'cwd': '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayushi'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayushi'), ('OLDPWD', '/home/ayushi/Collective_Robotics/A2/ros_work/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '237672'), ('SYSTEMD_EXEC_PID', '238027'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '325747'), ('COLCON_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayushi'), ('JOURNAL_STREAM', '8:1799322'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayushi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ayushi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayushi-HP-Pavilion-Notebook:@/tmp/.ICE-unix/238000,unix/ayushi-HP-Pavilion-Notebook:/tmp/.ICE-unix/238000'), ('INVOCATION_ID', 'c269dfc54bbb4339a376615d0a0a56c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1cdeadce-56d5-47ee-95ef-256aaf364b2c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble')]), 'shell': False}
+[0.500811] (-) TimerEvent: {}
+[0.601139] (-) TimerEvent: {}
+[0.701489] (-) TimerEvent: {}
+[0.801800] (-) TimerEvent: {}
+[0.902125] (-) TimerEvent: {}
+[1.002468] (-) TimerEvent: {}
+[1.102718] (-) TimerEvent: {}
+[1.180603] (collective_robotics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ayushi', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ayushi', 'OLDPWD': '/home/ayushi/Collective_Robotics/A2/ros_work/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '237672', 'SYSTEMD_EXEC_PID': '238027', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '325747', 'COLCON_PREFIX_PATH': '/home/ayushi/Collective_Robotics/A2/ros_work/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ayushi', 'JOURNAL_STREAM': '8:1799322', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ayushi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ayushi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ayushi-HP-Pavilion-Notebook:@/tmp/.ICE-unix/238000,unix/ayushi-HP-Pavilion-Notebook:/tmp/.ICE-unix/238000', 'INVOCATION_ID': 'c269dfc54bbb4339a376615d0a0a56c3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:1cdeadce-56d5-47ee-95ef-256aaf364b2c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2'}, 'shell': False}
+[1.202825] (-) TimerEvent: {}
+[1.303135] (-) TimerEvent: {}
+[1.403466] (-) TimerEvent: {}
+[1.503802] (-) TimerEvent: {}
+[1.604136] (-) TimerEvent: {}
+[1.610647] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.674420] (collective_robotics) StdoutLine: {'line': b'running develop\n'}
+[1.704254] (-) TimerEvent: {}
+[1.804524] (-) TimerEvent: {}
+[1.886058] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.904653] (-) TimerEvent: {}
+[1.925812] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.004800] (-) TimerEvent: {}
+[2.009500] (collective_robotics) StdoutLine: {'line': b'running egg_info\n'}
+[2.009772] (collective_robotics) StdoutLine: {'line': b'creating collective_robotics.egg-info\n'}
+[2.030294] (collective_robotics) StdoutLine: {'line': b'writing collective_robotics.egg-info/PKG-INFO\n'}
+[2.031141] (collective_robotics) StdoutLine: {'line': b'writing dependency_links to collective_robotics.egg-info/dependency_links.txt\n'}
+[2.031348] (collective_robotics) StdoutLine: {'line': b'writing entry points to collective_robotics.egg-info/entry_points.txt\n'}
+[2.031575] (collective_robotics) StdoutLine: {'line': b'writing requirements to collective_robotics.egg-info/requires.txt\n'}
+[2.031770] (collective_robotics) StdoutLine: {'line': b'writing top-level names to collective_robotics.egg-info/top_level.txt\n'}
+[2.031966] (collective_robotics) StdoutLine: {'line': b"writing manifest file 'collective_robotics.egg-info/SOURCES.txt'\n"}
+[2.077942] (collective_robotics) StdoutLine: {'line': b"reading manifest file 'collective_robotics.egg-info/SOURCES.txt'\n"}
+[2.079018] (collective_robotics) StdoutLine: {'line': b"writing manifest file 'collective_robotics.egg-info/SOURCES.txt'\n"}
+[2.104113] (collective_robotics) StdoutLine: {'line': b'running build_ext\n'}
+[2.104429] (collective_robotics) StdoutLine: {'line': b'Creating /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages/collective-robotics.egg-link (link to .)\n'}
+[2.104884] (-) TimerEvent: {}
+[2.105687] (collective_robotics) StdoutLine: {'line': b'Installing cleaning_bot script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.106007] (collective_robotics) StdoutLine: {'line': b'Installing go_to_goal script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.106229] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.106462] (collective_robotics) StdoutLine: {'line': b'Installing multi_bot_task1_stop script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.106617] (collective_robotics) StdoutLine: {'line': b'Installing multi_bot_task2_wait script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.106820] (collective_robotics) StdoutLine: {'line': b'Installing multi_bot_task3_aggregate script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.107025] (collective_robotics) StdoutLine: {'line': b'Installing navigation script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.107250] (collective_robotics) StdoutLine: {'line': b'Installing obstacle_avoid script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.107472] (collective_robotics) StdoutLine: {'line': b'Installing vacum_bot script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.107682] (collective_robotics) StdoutLine: {'line': b'Installing wall_follower script to /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/collective_robotics\n'}
+[2.107965] (collective_robotics) StdoutLine: {'line': b'\n'}
+[2.108112] (collective_robotics) StdoutLine: {'line': b'Installed /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics\n'}
+[2.108414] (collective_robotics) StdoutLine: {'line': b'running symlink_data\n'}
+[2.108616] (collective_robotics) StdoutLine: {'line': b'creating /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/ament_index\n'}
+[2.108820] (collective_robotics) StdoutLine: {'line': b'creating /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/ament_index/resource_index\n'}
+[2.109016] (collective_robotics) StdoutLine: {'line': b'creating /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/ament_index/resource_index/packages\n'}
+[2.109211] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/resource/collective_robotics -> /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/ament_index/resource_index/packages\n'}
+[2.109471] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/package.xml -> /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics\n'}
+[2.109674] (collective_robotics) StdoutLine: {'line': b'creating /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/launch\n'}
+[2.109851] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/launch/multi_robot_behavior_wait.launch.py -> /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/launch\n'}
+[2.109992] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/launch/multi_robot_swarm_aggregate.launch.py -> /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/launch\n'}
+[2.110108] (collective_robotics) StdoutLine: {'line': b'symbolically linking /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/launch/multi_robot_behavior.launch.py -> /home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/launch\n'}
+[2.118903] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.119384] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.126907] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.133814] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.160179] (collective_robotics) CommandEnded: {'returncode': 0}
+[2.173968] (collective_robotics) JobEnded: {'identifier': 'collective_robotics', 'rc': 0}
+[2.205023] (-) TimerEvent: {}
+[2.263832] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.273058] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.273453] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.273975] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.305300] (-) TimerEvent: {}
+[2.321552] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.405422] (-) TimerEvent: {}
+[2.505824] (-) TimerEvent: {}
+[2.606102] (-) TimerEvent: {}
+[2.706357] (-) TimerEvent: {}
+[2.806630] (-) TimerEvent: {}
+[2.906917] (-) TimerEvent: {}
+[3.007210] (-) TimerEvent: {}
+[3.080652] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.107304] (-) TimerEvent: {}
+[3.207572] (-) TimerEvent: {}
+[3.261087] (stage_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.307889] (-) TimerEvent: {}
+[3.346585] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.408060] (-) TimerEvent: {}
+[3.474574] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.481205] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.491621] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.506749] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.508185] (-) TimerEvent: {}
+[3.533611] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.589347] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.592724] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.608251] (-) TimerEvent: {}
+[3.708579] (-) TimerEvent: {}
+[3.809196] (-) TimerEvent: {}
+[3.835572] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.884569] (stage_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.909265] (-) TimerEvent: {}
+[3.932734] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.960149] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.009400] (-) TimerEvent: {}
+[4.109705] (-) TimerEvent: {}
+[4.138011] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.139139] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.210087] (-) TimerEvent: {}
+[4.275746] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.277199] (stage_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.310192] (-) TimerEvent: {}
+[4.362184] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.410429] (-) TimerEvent: {}
+[4.412663] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.454770] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.498557] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.510528] (-) TimerEvent: {}
+[4.610809] (-) TimerEvent: {}
+[4.678449] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.710960] (-) TimerEvent: {}
+[4.749514] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.751787] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.752027] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.756923] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[4.804378] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.811138] (-) TimerEvent: {}
+[4.911575] (-) TimerEvent: {}
+[5.012208] (-) TimerEvent: {}
+[5.094223] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.094797] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2/include>\n'}
+[5.094933] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.096527] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.105905] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.107357] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.112413] (-) TimerEvent: {}
+[5.122282] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.122437] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.123707] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.126021] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.212593] (-) TimerEvent: {}
+[5.216819] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[5.239611] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2\n'}
+[5.254483] (stage_ros2) CommandEnded: {'returncode': 0}
+[5.256592] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[5.256681] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayushi'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayushi'), ('OLDPWD', '/home/ayushi/Collective_Robotics/A2/ros_work/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '237672'), ('SYSTEMD_EXEC_PID', '238027'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '325747'), ('COLCON_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayushi'), ('JOURNAL_STREAM', '8:1799322'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayushi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ayushi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayushi-HP-Pavilion-Notebook:@/tmp/.ICE-unix/238000,unix/ayushi-HP-Pavilion-Notebook:/tmp/.ICE-unix/238000'), ('INVOCATION_ID', 'c269dfc54bbb4339a376615d0a0a56c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1cdeadce-56d5-47ee-95ef-256aaf364b2c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble')]), 'shell': False}
+[5.313246] (-) TimerEvent: {}
+[5.322118] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[5.322401] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[5.322575] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[5.322857] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[5.413435] (-) TimerEvent: {}
+[5.514262] (-) TimerEvent: {}
+[5.615482] (-) TimerEvent: {}
+[5.715819] (-) TimerEvent: {}
+[5.818498] (-) TimerEvent: {}
+[5.918957] (-) TimerEvent: {}
+[6.019371] (-) TimerEvent: {}
+[6.119758] (-) TimerEvent: {}
+[6.220311] (-) TimerEvent: {}
+[6.320966] (-) TimerEvent: {}
+[6.421975] (-) TimerEvent: {}
+[6.522713] (-) TimerEvent: {}
+[6.623642] (-) TimerEvent: {}
+[6.724707] (-) TimerEvent: {}
+[6.825599] (-) TimerEvent: {}
+[6.926566] (-) TimerEvent: {}
+[7.027301] (-) TimerEvent: {}
+[7.128085] (-) TimerEvent: {}
+[7.229226] (-) TimerEvent: {}
+[7.329719] (-) TimerEvent: {}
+[7.430525] (-) TimerEvent: {}
+[7.531216] (-) TimerEvent: {}
+[7.633332] (-) TimerEvent: {}
+[7.734116] (-) TimerEvent: {}
+[7.834960] (-) TimerEvent: {}
+[7.938611] (-) TimerEvent: {}
+[8.039212] (-) TimerEvent: {}
+[8.139601] (-) TimerEvent: {}
+[8.239973] (-) TimerEvent: {}
+[8.340400] (-) TimerEvent: {}
+[8.440942] (-) TimerEvent: {}
+[8.541484] (-) TimerEvent: {}
+[8.642322] (-) TimerEvent: {}
+[8.743418] (-) TimerEvent: {}
+[8.845235] (-) TimerEvent: {}
+[8.945600] (-) TimerEvent: {}
+[9.046090] (-) TimerEvent: {}
+[9.146556] (-) TimerEvent: {}
+[9.246954] (-) TimerEvent: {}
+[9.349478] (-) TimerEvent: {}
+[9.450116] (-) TimerEvent: {}
+[9.552006] (-) TimerEvent: {}
+[9.653097] (-) TimerEvent: {}
+[9.755479] (-) TimerEvent: {}
+[9.856971] (-) TimerEvent: {}
+[9.960666] (-) TimerEvent: {}
+[10.067888] (-) TimerEvent: {}
+[10.168819] (-) TimerEvent: {}
+[10.271236] (-) TimerEvent: {}
+[10.371760] (-) TimerEvent: {}
+[10.472115] (-) TimerEvent: {}
+[10.572768] (-) TimerEvent: {}
+[10.675455] (-) TimerEvent: {}
+[10.797243] (-) TimerEvent: {}
+[10.897591] (-) TimerEvent: {}
+[10.998116] (-) TimerEvent: {}
+[11.098642] (-) TimerEvent: {}
+[11.199120] (-) TimerEvent: {}
+[11.299486] (-) TimerEvent: {}
+[11.399866] (-) TimerEvent: {}
+[11.500227] (-) TimerEvent: {}
+[11.600566] (-) TimerEvent: {}
+[11.701085] (-) TimerEvent: {}
+[11.801405] (-) TimerEvent: {}
+[11.903316] (-) TimerEvent: {}
+[12.004057] (-) TimerEvent: {}
+[12.104445] (-) TimerEvent: {}
+[12.207279] (-) TimerEvent: {}
+[12.307627] (-) TimerEvent: {}
+[12.408011] (-) TimerEvent: {}
+[12.508372] (-) TimerEvent: {}
+[12.608744] (-) TimerEvent: {}
+[12.709141] (-) TimerEvent: {}
+[12.809504] (-) TimerEvent: {}
+[12.910008] (-) TimerEvent: {}
+[13.012254] (-) TimerEvent: {}
+[13.114238] (-) TimerEvent: {}
+[13.214759] (-) TimerEvent: {}
+[13.315267] (-) TimerEvent: {}
+[13.415767] (-) TimerEvent: {}
+[13.516244] (-) TimerEvent: {}
+[13.616768] (-) TimerEvent: {}
+[13.718419] (-) TimerEvent: {}
+[13.818912] (-) TimerEvent: {}
+[13.919302] (-) TimerEvent: {}
+[14.021236] (-) TimerEvent: {}
+[14.121606] (-) TimerEvent: {}
+[14.222008] (-) TimerEvent: {}
+[14.324298] (-) TimerEvent: {}
+[14.424786] (-) TimerEvent: {}
+[14.525198] (-) TimerEvent: {}
+[14.625544] (-) TimerEvent: {}
+[14.725907] (-) TimerEvent: {}
+[14.827237] (-) TimerEvent: {}
+[14.927765] (-) TimerEvent: {}
+[15.028267] (-) TimerEvent: {}
+[15.129524] (-) TimerEvent: {}
+[15.233436] (-) TimerEvent: {}
+[15.333805] (-) TimerEvent: {}
+[15.437032] (-) TimerEvent: {}
+[15.538293] (-) TimerEvent: {}
+[15.638648] (-) TimerEvent: {}
+[15.739073] (-) TimerEvent: {}
+[15.839436] (-) TimerEvent: {}
+[15.939945] (-) TimerEvent: {}
+[16.040484] (-) TimerEvent: {}
+[16.141458] (-) TimerEvent: {}
+[16.241818] (-) TimerEvent: {}
+[16.342156] (-) TimerEvent: {}
+[16.442528] (-) TimerEvent: {}
+[16.542924] (-) TimerEvent: {}
+[16.643434] (-) TimerEvent: {}
+[16.847653] (-) TimerEvent: {}
+[16.948190] (-) TimerEvent: {}
+[17.050455] (-) TimerEvent: {}
+[17.150809] (-) TimerEvent: {}
+[17.251158] (-) TimerEvent: {}
+[17.351549] (-) TimerEvent: {}
+[17.451896] (-) TimerEvent: {}
+[17.552248] (-) TimerEvent: {}
+[17.655417] (-) TimerEvent: {}
+[17.755935] (-) TimerEvent: {}
+[17.856605] (-) TimerEvent: {}
+[17.959487] (-) TimerEvent: {}
+[18.059985] (-) TimerEvent: {}
+[18.162310] (-) TimerEvent: {}
+[18.271419] (-) TimerEvent: {}
+[18.372882] (-) TimerEvent: {}
+[18.473447] (-) TimerEvent: {}
+[18.573955] (-) TimerEvent: {}
+[18.675488] (-) TimerEvent: {}
+[18.775884] (-) TimerEvent: {}
+[18.876384] (-) TimerEvent: {}
+[18.977631] (-) TimerEvent: {}
+[19.094128] (-) TimerEvent: {}
+[19.197248] (-) TimerEvent: {}
+[19.297816] (-) TimerEvent: {}
+[19.398423] (-) TimerEvent: {}
+[19.499041] (-) TimerEvent: {}
+[19.599410] (-) TimerEvent: {}
+[19.699772] (-) TimerEvent: {}
+[19.800150] (-) TimerEvent: {}
+[19.900514] (-) TimerEvent: {}
+[20.001280] (-) TimerEvent: {}
+[20.101657] (-) TimerEvent: {}
+[20.202004] (-) TimerEvent: {}
+[20.309262] (-) TimerEvent: {}
+[20.409681] (-) TimerEvent: {}
+[20.511510] (-) TimerEvent: {}
+[20.611882] (-) TimerEvent: {}
+[20.712258] (-) TimerEvent: {}
+[20.813699] (-) TimerEvent: {}
+[20.914473] (-) TimerEvent: {}
+[21.015246] (-) TimerEvent: {}
+[21.116409] (-) TimerEvent: {}
+[21.216787] (-) TimerEvent: {}
+[21.317354] (-) TimerEvent: {}
+[21.418501] (-) TimerEvent: {}
+[21.519233] (-) TimerEvent: {}
+[21.620061] (-) TimerEvent: {}
+[21.720448] (-) TimerEvent: {}
+[21.821859] (-) TimerEvent: {}
+[21.924097] (-) TimerEvent: {}
+[22.024474] (-) TimerEvent: {}
+[22.125229] (-) TimerEvent: {}
+[22.226222] (-) TimerEvent: {}
+[22.328619] (-) TimerEvent: {}
+[22.429114] (-) TimerEvent: {}
+[22.529640] (-) TimerEvent: {}
+[22.631345] (-) TimerEvent: {}
+[22.731763] (-) TimerEvent: {}
+[22.832130] (-) TimerEvent: {}
+[22.932503] (-) TimerEvent: {}
+[23.037263] (-) TimerEvent: {}
+[23.138226] (-) TimerEvent: {}
+[23.238629] (-) TimerEvent: {}
+[23.339075] (-) TimerEvent: {}
+[23.439939] (-) TimerEvent: {}
+[23.540512] (-) TimerEvent: {}
+[23.640877] (-) TimerEvent: {}
+[23.741270] (-) TimerEvent: {}
+[23.841637] (-) TimerEvent: {}
+[23.942099] (-) TimerEvent: {}
+[24.042427] (-) TimerEvent: {}
+[24.142734] (-) TimerEvent: {}
+[24.243052] (-) TimerEvent: {}
+[24.343397] (-) TimerEvent: {}
+[24.443712] (-) TimerEvent: {}
+[24.544025] (-) TimerEvent: {}
+[24.644354] (-) TimerEvent: {}
+[24.744686] (-) TimerEvent: {}
+[24.844998] (-) TimerEvent: {}
+[24.945329] (-) TimerEvent: {}
+[25.045664] (-) TimerEvent: {}
+[25.145997] (-) TimerEvent: {}
+[25.246327] (-) TimerEvent: {}
+[25.346632] (-) TimerEvent: {}
+[25.446976] (-) TimerEvent: {}
+[25.547337] (-) TimerEvent: {}
+[25.647689] (-) TimerEvent: {}
+[25.748065] (-) TimerEvent: {}
+[25.848378] (-) TimerEvent: {}
+[25.948672] (-) TimerEvent: {}
+[26.048933] (-) TimerEvent: {}
+[26.149247] (-) TimerEvent: {}
+[26.249672] (-) TimerEvent: {}
+[26.349984] (-) TimerEvent: {}
+[26.450359] (-) TimerEvent: {}
+[26.551025] (-) TimerEvent: {}
+[26.651382] (-) TimerEvent: {}
+[26.751721] (-) TimerEvent: {}
+[26.852025] (-) TimerEvent: {}
+[26.952322] (-) TimerEvent: {}
+[27.052675] (-) TimerEvent: {}
+[27.153021] (-) TimerEvent: {}
+[27.253370] (-) TimerEvent: {}
+[27.313100] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[27.353545] (-) TimerEvent: {}
+[27.453991] (-) TimerEvent: {}
+[27.554327] (-) TimerEvent: {}
+[27.654844] (-) TimerEvent: {}
+[27.755460] (-) TimerEvent: {}
+[27.855910] (-) TimerEvent: {}
+[27.956599] (-) TimerEvent: {}
+[28.057192] (-) TimerEvent: {}
+[28.157944] (-) TimerEvent: {}
+[28.258293] (-) TimerEvent: {}
+[28.358779] (-) TimerEvent: {}
+[28.459260] (-) TimerEvent: {}
+[28.559924] (-) TimerEvent: {}
+[28.660249] (-) TimerEvent: {}
+[28.760551] (-) TimerEvent: {}
+[28.860858] (-) TimerEvent: {}
+[28.961194] (-) TimerEvent: {}
+[29.061491] (-) TimerEvent: {}
+[29.161779] (-) TimerEvent: {}
+[29.170435] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[29.196607] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[29.262050] (-) TimerEvent: {}
+[29.362827] (-) TimerEvent: {}
+[29.463410] (-) TimerEvent: {}
+[29.564087] (-) TimerEvent: {}
+[29.664926] (-) TimerEvent: {}
+[29.765288] (-) TimerEvent: {}
+[29.865756] (-) TimerEvent: {}
+[29.966191] (-) TimerEvent: {}
+[30.066999] (-) TimerEvent: {}
+[30.167387] (-) TimerEvent: {}
+[30.267815] (-) TimerEvent: {}
+[30.368640] (-) TimerEvent: {}
+[30.469269] (-) TimerEvent: {}
+[30.569824] (-) TimerEvent: {}
+[30.670265] (-) TimerEvent: {}
+[30.770748] (-) TimerEvent: {}
+[30.871244] (-) TimerEvent: {}
+[30.971804] (-) TimerEvent: {}
+[31.072520] (-) TimerEvent: {}
+[31.173243] (-) TimerEvent: {}
+[31.273993] (-) TimerEvent: {}
+[31.375244] (-) TimerEvent: {}
+[31.475603] (-) TimerEvent: {}
+[31.575951] (-) TimerEvent: {}
+[31.676608] (-) TimerEvent: {}
+[31.777222] (-) TimerEvent: {}
+[31.877674] (-) TimerEvent: {}
+[31.978327] (-) TimerEvent: {}
+[32.078933] (-) TimerEvent: {}
+[32.179367] (-) TimerEvent: {}
+[32.279986] (-) TimerEvent: {}
+[32.380518] (-) TimerEvent: {}
+[32.480870] (-) TimerEvent: {}
+[32.581371] (-) TimerEvent: {}
+[32.681743] (-) TimerEvent: {}
+[32.782075] (-) TimerEvent: {}
+[32.882536] (-) TimerEvent: {}
+[32.982833] (-) TimerEvent: {}
+[33.083145] (-) TimerEvent: {}
+[33.183430] (-) TimerEvent: {}
+[33.283752] (-) TimerEvent: {}
+[33.384087] (-) TimerEvent: {}
+[33.484364] (-) TimerEvent: {}
+[33.584695] (-) TimerEvent: {}
+[33.685019] (-) TimerEvent: {}
+[33.785317] (-) TimerEvent: {}
+[33.885633] (-) TimerEvent: {}
+[33.985937] (-) TimerEvent: {}
+[34.086280] (-) TimerEvent: {}
+[34.186576] (-) TimerEvent: {}
+[34.286896] (-) TimerEvent: {}
+[34.387216] (-) TimerEvent: {}
+[34.487550] (-) TimerEvent: {}
+[34.587883] (-) TimerEvent: {}
+[34.688208] (-) TimerEvent: {}
+[34.788512] (-) TimerEvent: {}
+[34.888853] (-) TimerEvent: {}
+[34.989178] (-) TimerEvent: {}
+[35.089478] (-) TimerEvent: {}
+[35.189784] (-) TimerEvent: {}
+[35.290094] (-) TimerEvent: {}
+[35.390387] (-) TimerEvent: {}
+[35.490688] (-) TimerEvent: {}
+[35.590991] (-) TimerEvent: {}
+[35.691269] (-) TimerEvent: {}
+[35.791594] (-) TimerEvent: {}
+[35.891925] (-) TimerEvent: {}
+[35.992235] (-) TimerEvent: {}
+[36.092531] (-) TimerEvent: {}
+[36.192830] (-) TimerEvent: {}
+[36.293150] (-) TimerEvent: {}
+[36.393513] (-) TimerEvent: {}
+[36.493778] (-) TimerEvent: {}
+[36.515522] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[36.593943] (-) TimerEvent: {}
+[36.694853] (-) TimerEvent: {}
+[36.795780] (-) TimerEvent: {}
+[36.896300] (-) TimerEvent: {}
+[36.996818] (-) TimerEvent: {}
+[37.097323] (-) TimerEvent: {}
+[37.197983] (-) TimerEvent: {}
+[37.298478] (-) TimerEvent: {}
+[37.399215] (-) TimerEvent: {}
+[37.499818] (-) TimerEvent: {}
+[37.503592] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[37.517336] (stage_ros2) CommandEnded: {'returncode': 0}
+[37.518301] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[37.528784] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2'], 'cwd': '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayushi'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayushi'), ('OLDPWD', '/home/ayushi/Collective_Robotics/A2/ros_work/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '237672'), ('SYSTEMD_EXEC_PID', '238027'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '325747'), ('COLCON_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayushi'), ('JOURNAL_STREAM', '8:1799322'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayushi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ayushi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayushi-HP-Pavilion-Notebook:@/tmp/.ICE-unix/238000,unix/ayushi-HP-Pavilion-Notebook:/tmp/.ICE-unix/238000'), ('INVOCATION_ID', 'c269dfc54bbb4339a376615d0a0a56c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1cdeadce-56d5-47ee-95ef-256aaf364b2c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble')]), 'shell': False}
+[37.539484] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.540054] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.540501] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[37.551019] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[37.562071] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[37.572481] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[37.582938] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[37.593242] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[37.599935] (-) TimerEvent: {}
+[37.603712] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[37.614474] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[37.624662] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[37.636094] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[37.646416] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[37.656679] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/new_map.png\n'}
+[37.666885] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[37.677095] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[37.687130] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[37.697943] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[37.700043] (-) TimerEvent: {}
+[37.711134] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[37.721491] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[37.732422] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[37.744528] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[37.754819] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[37.765622] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[37.775546] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[37.786018] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[37.796061] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[37.800156] (-) TimerEvent: {}
+[37.806537] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new.world\n'}
+[37.817012] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new_maze.world\n'}
+[37.828148] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[37.839606] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[37.850210] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[37.860606] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[37.871230] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[37.881549] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[37.892013] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[37.900234] (-) TimerEvent: {}
+[37.902596] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[37.913084] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[37.923715] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[37.935985] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/libstage_node.so\n'}
+[37.946996] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[37.957885] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[37.968857] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[37.979323] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[37.989856] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[38.000364] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[38.000609] (-) TimerEvent: {}
+[38.010941] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[38.021373] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[38.032447] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[38.043881] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[38.054380] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[38.065970] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[38.076669] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[38.087174] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[38.097625] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[38.100747] (-) TimerEvent: {}
+[38.108047] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[38.121342] (stage_ros2) CommandEnded: {'returncode': 0}
+[38.147410] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[38.148202] (-) EventReactorShutdown: {}

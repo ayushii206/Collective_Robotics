@@ -1,0 +1,124 @@
+[0.417s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake /home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2
+[1.598s] -- The C compiler identification is GNU 11.4.0
+[1.874s] -- The CXX compiler identification is GNU 11.4.0
+[1.913s] -- Detecting C compiler ABI info
+[2.094s] -- Detecting C compiler ABI info - done
+[2.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.107s] -- Detecting C compile features
+[2.114s] -- Detecting C compile features - done
+[2.121s] -- Detecting CXX compiler ABI info
+[2.251s] -- Detecting CXX compiler ABI info - done
+[2.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.261s] -- Detecting CXX compile features
+[2.261s] -- Detecting CXX compile features - done
+[2.309s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.068s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.249s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.334s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.462s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.469s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.479s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.577s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.580s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.872s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.948s] -- Looking for pthread.h
+[4.126s] -- Looking for pthread.h - found
+[4.127s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.263s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.265s] -- Found Threads: TRUE  
+[4.350s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.400s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.442s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.486s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.666s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.737s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.739s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.739s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.744s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[4.792s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.082s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.082s] -- Configured cppcheck include dirs: /home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2/include>
+[5.082s] -- Configured cppcheck exclude dirs and/or files: 
+[5.084s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.093s] -- Added test 'lint_cmake' to check CMake code style
+[5.095s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.110s] -- Added test 'uncrustify' to check C / C++ code style
+[5.110s] -- Configured uncrustify additional arguments: 
+[5.111s] -- Added test 'xmllint' to check XML markup files
+[5.114s] -- Configuring done
+[5.204s] -- Generating done
+[5.227s] -- Build files have been written to: /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2
+[5.242s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake /home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2
+[5.245s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --build /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2 -- -j4 -l4
+[5.310s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[5.310s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[5.310s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[5.310s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[27.301s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[29.158s] [ 71%] Built target stage_node
+[29.184s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[36.503s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[37.491s] [100%] Built target stage_ros2
+[37.505s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --build /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2 -- -j4 -l4
+[37.517s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --install /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2
+[37.527s] -- Install configuration: ""
+[37.528s] -- Execute custom install script
+[37.528s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[37.539s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[37.550s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[37.560s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[37.570s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[37.581s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[37.591s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[37.602s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[37.612s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[37.624s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[37.634s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[37.644s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/new_map.png
+[37.654s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[37.665s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[37.675s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[37.685s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[37.699s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[37.709s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave.world
+[37.720s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[37.732s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[37.742s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[37.753s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/hallway.world
+[37.763s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[37.774s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[37.784s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/lines.world
+[37.794s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new.world
+[37.805s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new_maze.world
+[37.816s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/straden.world
+[37.827s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[37.838s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[37.848s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[37.859s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[37.869s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[37.880s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[37.890s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[37.901s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[37.911s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[37.924s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/libstage_node.so
+[37.935s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/stage_ros2/stage_ros2
+[37.945s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[37.956s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[37.967s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[37.977s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[37.988s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/path.sh
+[37.999s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[38.009s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.bash
+[38.020s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.sh
+[38.031s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[38.042s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[38.054s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.dsv
+[38.064s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[38.075s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[38.085s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[38.096s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.xml
+[38.109s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --install /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2

@@ -32,7 +32,7 @@ colcon build --symlink-install
 Open a terminal and run the following command to load the environment:
 
 ```bash
-ros2 launch stage_ros2 demo.launch.py world:=cave
+ros2 launch stage_ros2 demo.launch.py world:=new_maze
 ```
 
 ### TASK 1
@@ -79,22 +79,24 @@ ros2 run collective_robotics ...
 
 A. Open the terminal and run the following launch file:
 
+(For 20 robots change world:=swarm5 to world:=swarm20)
+
 ```bash
-ros2 launch collective_robotics multi_robot_behavior.launch.py world:=cave_multi
+ros2 launch collective_robotics multi_robot_behavior.launch.py world:=swarm5
 ```
 Result: The robots stop when in close proximity with each other.
 
 B. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_behavior_wait.launch.py world:=cave_multi
+ros2 launch collective_robotics multi_robot_behavior_wait.launch.py world:=swarm5
 ```
 Result: The robot starts  moving again after waiting a certain period of time
 
 C. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py world:=cave_multi
+ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py world:=swarm5
 ```
 
 
