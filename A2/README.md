@@ -27,7 +27,7 @@ A. To clone the repository:
 cd 
 git clone https://github.com/ayushii206/Collective_Robotics.git
 ```
-B. OR Unzip the project folder
+B. OR Unzip the project folder (Preferred)
 
 ## Step 3: Navigate to the `ros_work` folder and build the workspace
 
