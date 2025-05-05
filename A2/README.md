@@ -100,7 +100,7 @@ ros2 run collective_robotics random_turning
 
 A. Open the terminal and run the following launch file:
 
-(For 20 robots change world:=swarm5 robot_count:=5 to world:=swarm20 robot_count:=20)
+(For 20 robots change world:=swarm5 robot_count:=5 to world:=swarm10 robot_count:=10)
 
 ```bash
 ros2 launch collective_robotics multi_robot_behavior.launch.py world:=swarm5 robot_count:=5

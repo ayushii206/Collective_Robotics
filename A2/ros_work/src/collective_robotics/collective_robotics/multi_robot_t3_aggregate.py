@@ -6,23 +6,32 @@ from nav_msgs.msg import Odometry
 from math import cos, sin, sqrt
 import tf_transformations
 import random
-from rclpy.parameter import Parameter
 
-class SmartSwarmRobot(Node):
+class SmartRobotClusterer(Node):
     def __init__(self):
-        super().__init__('smart_swarm_robot')
+        super().__init__('smart_robot_clusterer')
 
         self.declare_parameter('robot_name', 'robot_0')
         self.robot_name = self.get_parameter('robot_name').get_parameter_value().string_value
 
-        self.all_robots = ["robot_0", "robot_1", "robot_2", "robot_3", "robot_4"]
+        self.all_robots = [f"robot_{i}" for i in range(20)]
         self.other_robots = [name for name in self.all_robots if name != self.robot_name]
 
-        self.state = "MOVING_FORWARD"
-        self.wait_start_time = None
-        self.WAIT_DURATION = 5.0  # seconds
+        self.threshold_robot = 0.3
+        self.threshold_wall = 0.5
 
         self.positions = {}
+        self.is_stopped = False
+        self.stop_time = None
+        self.WAITING_TIME = 8.0  # wait in cluster longer
+
+        self.escaping = False
+        self.escape_start_time = None
+        self.ESCAPE_DURATION = 1.0  # short escape to stay near cluster
+
+        self.my_x = 0.0
+        self.my_y = 0.0
+        self.my_yaw = 0.0
 
         self.create_subscription(LaserScan, f'/{self.robot_name}/base_scan', self.laser_callback, 10)
         self.create_subscription(Odometry, f'/{self.robot_name}/odom', self.my_odom_callback, 10)
@@ -31,10 +40,6 @@ class SmartSwarmRobot(Node):
             self.create_subscription(Odometry, f'/{other}/odom', lambda msg, other=other: self.odom_callback(msg, other), 10)
 
         self.cmd_vel_pub = self.create_publisher(Twist, f'/{self.robot_name}/cmd_vel', 10)
-
-        self.my_x = 0.0
-        self.my_y = 0.0
-        self.my_yaw = 0.0
 
     def my_odom_callback(self, msg):
         self.my_x = msg.pose.pose.position.x
@@ -48,53 +53,65 @@ class SmartSwarmRobot(Node):
         ])
 
     def odom_callback(self, msg, robot_name):
-        x = msg.pose.pose.position.x
-        y = msg.pose.pose.position.y
-        self.positions[robot_name] = (x, y)
+        self.positions[robot_name] = (
+            msg.pose.pose.position.x,
+            msg.pose.pose.position.y
+        )
 
     def laser_callback(self, msg):
         now = self.get_clock().now().seconds_nanoseconds()[0]
 
+        if self.escaping:
+            if now - self.escape_start_time >= self.ESCAPE_DURATION:
+                self.escaping = False
+                self.get_logger().info(f"[{self.robot_name}] Finished escaping.")
+            else:
+                twist = Twist()
+                twist.linear.x = 0.1  # gentle forward motion
+                twist.angular.z = self.escape_direction  # curved escape
+                self.cmd_vel_pub.publish(twist)
+                return
+
+        if self.is_stopped:
+            if now - self.stop_time >= self.WAITING_TIME:
+                self.get_logger().info(f"[{self.robot_name}] Done waiting. Escaping...")
+                self.is_stopped = False
+                self.start_escape(now)
+            else:
+                self.publish_stop()
+                return
+
+        # Analyze laser data
         min_distance = min(msg.ranges)
+        min_index = msg.ranges.index(min_distance)
+        angle = msg.angle_min + min_index * msg.angle_increment
 
-        if min_distance < 0.4:
-            self.get_logger().warn(f"[{self.robot_name}] Wall too close! Avoiding...")
-            self.avoid_wall()
-            return
+        obs_x = self.my_x + min_distance * cos(self.my_yaw + angle)
+        obs_y = self.my_y + min_distance * sin(self.my_yaw + angle)
 
-        robot_nearby = self.detect_nearby_robot()
-
-        if self.state == "MOVING_FORWARD":
-            if robot_nearby:
-                self.get_logger().info(f"[{self.robot_name}] Robot detected! Stopping for 5 seconds...")
-                self.state = "WAITING_STOP"
-                self.wait_start_time = now
-                self.publish_stop()
-            else:
-                self.move_forward()
-
-        elif self.state == "WAITING_STOP":
-            if now - self.wait_start_time >= self.WAIT_DURATION:
-                self.get_logger().info(f"[{self.robot_name}] Done waiting! Escaping left...")
-                self.state = "ESCAPE_LEFT"
-            else:
-                self.publish_stop()
-
-        elif self.state == "ESCAPE_LEFT":
-            self.escape_left()
-
-    def detect_nearby_robot(self):
+        is_robot_near = False
         for name, (x, y) in self.positions.items():
-            distance = sqrt((x - self.my_x)**2 + (y - self.my_y)**2)
-            if distance < 0.3:  
-                return True
-        return False
+            distance = sqrt((x - obs_x) ** 2 + (y - obs_y) ** 2)
+            if distance < self.threshold_robot:
+                is_robot_near = True
+                break
 
-    def move_forward(self):
         twist = Twist()
-        twist.linear.x = 0.2
-        twist.angular.z = 0.0
-        self.cmd_vel_pub.publish(twist)
+
+        if min_distance < self.threshold_wall:
+            if is_robot_near:
+                self.get_logger().info(f"[{self.robot_name}] Robot nearby — stopping.")
+                self.is_stopped = True
+                self.stop_time = now
+                self.publish_stop()
+            else:
+                twist.linear.x = 0.0
+                twist.angular.z = 0.5  # wall avoidance
+                self.cmd_vel_pub.publish(twist)
+        else:
+            twist.linear.x = 0.2
+            twist.angular.z = 0.0
+            self.cmd_vel_pub.publish(twist)
 
     def publish_stop(self):
         twist = Twist()
@@ -102,25 +119,17 @@ class SmartSwarmRobot(Node):
         twist.angular.z = 0.0
         self.cmd_vel_pub.publish(twist)
 
-    def escape_left(self):
-        twist = Twist()
-        twist.linear.x = 0.0
-        twist.angular.z = 0.5 
-        self.cmd_vel_pub.publish(twist)
-        self.state = "MOVING_FORWARD"
-
-    def avoid_wall(self):
-        twist = Twist()
-        twist.linear.x = 0.0
-        twist.angular.z = random.choice([-1.0, 1.0])  
-        self.cmd_vel_pub.publish(twist)
+    def start_escape(self, now):
+        self.escaping = True
+        self.escape_start_time = now
+        self.escape_direction = random.choice([-0.3, 0.3])  # small turn angle
 
 def main(args=None):
     rclpy.init(args=args)
-    node = SmartSwarmRobot()
+    node = SmartRobotClusterer()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
