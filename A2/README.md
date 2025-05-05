@@ -79,24 +79,24 @@ ros2 run collective_robotics ...
 
 A. Open the terminal and run the following launch file:
 
-(For 20 robots change world:=swarm5 to world:=swarm20)
+(For 20 robots change world:=swarm5 robot_count:=5 to world:=swarm20 robot_count:=20)
 
 ```bash
-ros2 launch collective_robotics multi_robot_behavior.launch.py world:=swarm5
+ros2 launch collective_robotics multi_robot_behavior.launch.py world:=swarm5 robot_count:=5
 ```
 Result: The robots stop when in close proximity with each other.
 
 B. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_behavior_wait.launch.py world:=swarm5
+ros2 launch collective_robotics multi_robot_behavior_wait.launch.py world:=swarm5 robot_count:=5
 ```
 Result: The robot starts  moving again after waiting a certain period of time
 
 C. Open the terminal and run the following launch file:
 
 ```bash
-ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py world:=swarm5
+ros2 launch collective_robotics multi_robot_swarm_aggregate.launch.py world:=swarm5 robot_count:=5
 ```
 
 
