@@ -31,12 +31,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-GRID_SIZE = 100           # The grid is 100x100 cells
-CELL_SIZE = 6             # Each cell is 6 pixels on screen
-NUM_ROBOTS =50           # Number of robots
-NUM_OBJECTS = 200         # Objects (chips) to be clustered
-TICKS = 1000              # How many steps the simulation runs
-ANTI_AGENT_PERCENTAGES = [0, 2, 5, 10, 15]  # % of anti-agents to test
+GRID_SIZE = 100           
+CELL_SIZE = 6            
+NUM_ROBOTS =50           
+NUM_OBJECTS = 200         
+TICKS = 1000              
+ANTI_AGENT_PERCENTAGES = [0, 2, 5, 10, 15]  
 
 def compute_density(grid, x, y, radius=3):
     count = 0
