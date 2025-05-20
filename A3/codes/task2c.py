@@ -1,16 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 # Parameters
-NUM_ROBOTS = 30
-ANTI_AGENT_COUNTS = [0, 1, 2, 3, 4, 5]
+NUM_ROBOTS = 60
+ANTI_AGENT_COUNTS = [0, 2, 4, 6, 8, 10, 12, 15]
 NEIGHBOR_RADIUS = 5
 LEAVE_THRESHOLD = 4
 WORLD_SIZE = 100
-STOP_PROB = 0.1
 MOVE_SPEED = 1.5
-FRAMES = 300
-REPEATS = 10
+FRAMES = 800
+REPEATS = 30
+TIMEOUT_FRAMES = 100  # Memory-based unstop timeout
 
 # Define robot class
 class Robot:
@@ -19,6 +20,7 @@ class Robot:
         self.y = np.random.uniform(0, WORLD_SIZE)
         self.is_anti = is_anti
         self.stopped = False
+        self.stop_time = 0
 
     def move(self):
         if not self.stopped or self.is_anti:
@@ -52,22 +54,31 @@ def get_largest_cluster_size(robots):
 
     return max_cluster
 
-# Function to run one simulation
+# Run a single simulation
 def run_simulation(num_anti_agents):
     robots = [Robot() for _ in range(NUM_ROBOTS)]
     anti_agents = [Robot(is_anti=True) for _ in range(num_anti_agents)]
 
     for _ in range(FRAMES):
+        # Update robots
         for robot in robots:
             if not robot.stopped:
                 neighbors = [
                     r for r in robots
-                    if r != robot and robot.distance_to(r) < NEIGHBOR_RADIUS and not r.is_anti
+                    if r != robot and robot.distance_to(r) < NEIGHBOR_RADIUS
                 ]
-                if len(neighbors) >= 2 and np.random.rand() < STOP_PROB:
+                p_stop = min(1.0, len(neighbors) / 5)
+                if np.random.rand() < p_stop:
                     robot.stopped = True
+                    robot.stop_time = 0
+            else:
+                robot.stop_time += 1
+                if robot.stop_time >= TIMEOUT_FRAMES:
+                    robot.stopped = False
+
             robot.move()
 
+        # Anti-agent broadcasting
         for anti in anti_agents:
             anti.move()
             for robot in robots:
@@ -78,7 +89,6 @@ def run_simulation(num_anti_agents):
                     ]
                     if len(neighbors) + 1 >= LEAVE_THRESHOLD:
                         robot.stopped = False
-                        break
 
     return get_largest_cluster_size(robots)
 
@@ -94,12 +104,20 @@ avg_results = [np.mean(results[k]) for k in ANTI_AGENT_COUNTS]
 std_results = [np.std(results[k]) for k in ANTI_AGENT_COUNTS]
 percentages = [100 * k / NUM_ROBOTS for k in ANTI_AGENT_COUNTS]
 
+# Paths
+output_folder = "A3/output/task2"  
+os.makedirs(output_folder, exist_ok=True)
+
 # Plot
 plt.figure(figsize=(8, 5))
 plt.errorbar(percentages, avg_results, yerr=std_results, fmt='-o', capsize=5)
-plt.title("Effect of Anti-Agent Percentage on Swarm Clustering")
+plt.title("Improved Robot Aggregation with Anti-Agent Percentage")
 plt.xlabel("Anti-Agent Percentage (%)")
 plt.ylabel("Average Largest Cluster Size")
 plt.grid(True)
 plt.tight_layout()
+# Save the plot
+filename = "task2c.png"
+filepath = os.path.join(output_folder, filename)
+plt.savefig(filepath)
 plt.show()

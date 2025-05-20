@@ -1,12 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Circle
 from matplotlib.animation import FuncAnimation
 
 # Parameters
 NUM_ROBOTS = 30
-NUM_ANTI_AGENTS = 3
-NEIGHBOR_RADIUS = 5
-LEAVE_THRESHOLD = 4  # Cluster size threshold (including the robot itself)
+NUM_ANTI_AGENTS = 5
+NEIGHBOR_RADIUS = 6
+LEAVE_THRESHOLD = 3  # Cluster size threshold (including the robot itself)
 WORLD_SIZE = 100
 STOP_PROB = 0.1
 MOVE_SPEED = 1.5
@@ -40,6 +41,8 @@ def update(frame):
     plt.clf()
     x_coords, y_coords, colors = [], [], []
 
+    ax = plt.gca()
+
     # Update normal robot behavior
     for robot in robots:
         if not robot.stopped:
@@ -55,18 +58,24 @@ def update(frame):
         y_coords.append(robot.y)
         colors.append("black" if robot.stopped else "blue")
 
-    # Anti-agent logic
+    # Anti-agent logic with distance check and visual zone
     for anti in anti_agents:
         anti.move()
+
+        # Draw the interaction zone
+        circle = Circle((anti.x, anti.y), NEIGHBOR_RADIUS, color='red', fill=False, linestyle='dashed', linewidth=1)
+        ax.add_patch(circle)
+
         for robot in robots:
-            if robot.stopped:
+            if robot.stopped and anti.distance_to(robot) < NEIGHBOR_RADIUS:
                 neighbors = [
                     r for r in robots
                     if r != robot and r.stopped and anti.distance_to(r) < NEIGHBOR_RADIUS
                 ]
+                #print(f"Anti-agent at ({anti.x:.1f},{anti.y:.1f}) sees robot at ({robot.x:.1f},{robot.y:.1f}) with {len(neighbors)+1} clustered robots")
                 if len(neighbors) + 1 >= LEAVE_THRESHOLD:
                     robot.stopped = False  # Leave command
-                    print(f"Anti-agent at ({anti.x:.1f}, {anti.y:.1f}) told robot at ({robot.x:.1f}, {robot.y:.1f}) to leave")
+                    print(f"Anti-agent at ({anti.x:.1f},{anti.y:.1f}) --> Robot at ({robot.x:.1f},{robot.y:.1f}) told to leave!")
                     break  # One robot per anti-agent per frame
 
         x_coords.append(anti.x)
