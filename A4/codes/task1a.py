@@ -2,18 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 
-# --------------------------
-# Parameters
-# --------------------------
 N = 20                      # Number of locusts
 steps = 500                 # Time steps
 speed = 0.001               # Movement speed
 r = 0.045                   # Perception range
 P = 0.015                   # Spontaneous switch probability
 
-# --------------------------
-# Initialization
-# --------------------------
 positions = np.random.rand(N)                              # Positions on [0, 1)
 directions = np.random.choice([-1, 1], size=N)             # -1 = left, +1 = right
 left_counts = []                                           # Track number of left-goers
@@ -21,9 +15,6 @@ left_counts = []                                           # Track number of lef
 history_positions = [positions.copy()]
 history_directions = [directions.copy()]
 
-# --------------------------
-# Simulation Loop
-# --------------------------
 for _ in range(steps):
     new_directions = directions.copy()
     
@@ -48,9 +39,6 @@ for _ in range(steps):
     history_positions.append(positions.copy())
     history_directions.append(directions.copy())
 
-# --------------------------
-# Plot: Number of Left-Moving Locusts
-# --------------------------
 plt.figure(figsize=(10, 4))
 plt.plot(left_counts, color='blue', label="Left-going Locusts")
 plt.title("Number of Left-going Locusts Over Time")
@@ -61,9 +49,6 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# --------------------------
-# Animation: Locusts on a Ring
-# --------------------------
 fig, ax = plt.subplots(figsize=(6, 6))
 circle = plt.Circle((0.5, 0.5), 0.45, color='lightgrey', fill=False)
 scat = ax.scatter([], [], c=[], cmap='bwr', s=100)
@@ -87,13 +72,5 @@ def update(frame):
 
 ani = FuncAnimation(fig, update, frames=len(history_positions), init_func=init, blit=True)
 plt.show()
-# --------------------------
-# Save Animation (Optional)
-# --------------------------
-# ani.save("locust_simulation.gif", dpi=100, writer=PillowWriter(fps=30))
-
-# --------------------------
-# To Display Inline in Notebook
-# --------------------------
 from IPython.display import HTML
 HTML(ani.to_jshtml())
