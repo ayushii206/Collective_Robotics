@@ -1,16 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
+import os
 
-N = 20                      # Number of locusts
-steps = 500                 # Time steps
-speed = 0.001               # Movement speed
-r = 0.045                   # Perception range
-P = 0.015                   # Spontaneous switch probability
+N = 20                      
+steps = 500                
+speed = 0.001            
+r = 0.045             
+P = 0.015             
 
-positions = np.random.rand(N)                              # Positions on [0, 1)
-directions = np.random.choice([-1, 1], size=N)             # -1 = left, +1 = right
-left_counts = []                                           # Track number of left-goers
+positions = np.random.rand(N)                              
+directions = np.random.choice([-1, 1], size=N)          
+left_counts = []                                   
 
 history_positions = [positions.copy()]
 history_directions = [directions.copy()]
@@ -20,7 +21,7 @@ for _ in range(steps):
     
     for i in range(N):
         dists = np.abs(positions - positions[i])
-        dists = np.minimum(dists, 1 - dists)               # Ring distance
+        dists = np.minimum(dists, 1 - dists)               
         neighbors_idx = (dists < r) & (dists > 0)
         neighbor_dirs = directions[neighbors_idx]
         
@@ -33,11 +34,15 @@ for _ in range(steps):
             new_directions[i] = -directions[i]
     
     directions = new_directions
-    positions = (positions + speed * directions) % 1       # Move on ring
+    positions = (positions + speed * directions) % 1       
     
     left_counts.append(np.sum(directions == -1))
     history_positions.append(positions.copy())
     history_directions.append(directions.copy())
+
+# Paths
+output_folder = "A4/output/task1"  
+os.makedirs(output_folder, exist_ok=True)
 
 plt.figure(figsize=(10, 4))
 plt.plot(left_counts, color='blue', label="Left-going Locusts")
@@ -47,6 +52,10 @@ plt.ylabel("Count")
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
+# Save the figure
+filename = "task1a.png"
+filepath = os.path.join(output_folder, filename)
+plt.savefig(filepath)
 plt.show()
 
 fig, ax = plt.subplots(figsize=(6, 6))

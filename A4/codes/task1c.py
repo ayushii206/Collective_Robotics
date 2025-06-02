@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 # Parameters
 N = 20
@@ -72,6 +73,10 @@ def sample_trajectory():
 simulated_L = simulate_run()
 sampled_L = sample_trajectory()
 
+# Paths
+output_folder = "A4/output/task1"  
+os.makedirs(output_folder, exist_ok=True)
+
 # Plot
 plt.figure(figsize=(12, 5))
 plt.plot(simulated_L, label="Task A: Simulated L(t)", linewidth=1.8)
@@ -82,4 +87,8 @@ plt.title("Comparison of Task A and Task C Trajectories")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
+# Save the figure
+filename = "task1c.png"
+filepath = os.path.join(output_folder, filename)
+plt.savefig(filepath)
 plt.show()
