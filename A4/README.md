@@ -61,19 +61,9 @@ Each subtask can be executed directly via Python:
 
 ---
 
-Plots are generated for all tasks, including:
-- Number of left-goers over time (1a)
-- Transition heatmaps (1b)
-- Simulated L(t) trajectories (1c)
-- Population curves for searchers, avoiders, and homers (2a, 2b)
-
----
-
 ## 📊 Results and Observations
 
-### 🐜 Task 1A: Left-going Locusts Over Time
-
-![Task 1A](task1a.png)
+### Task 1A: Left-going Locusts Over Time
 
 - Locusts initially move randomly.
 - Clusters start to form where most locusts move in the same direction.
@@ -82,17 +72,13 @@ Plots are generated for all tasks, including:
 
 ---
 
-### 🔁 Task 1B: Transition Histogram
-
-![Task 1B](task1b.png)
+### Task 1B: Transition Histogram
 
 - The histogram shows transitions between states Lₜ → Lₜ₊₁.
 - Diagonal dominance indicates stability—most states remain near their value.
 - Spread around the diagonal suggests stochastic switching.
 
-### 🔄 Task 1C: Probabilistic Model vs Original Simulation
-
-![Task 1C](task1c.png)
+### Task 1C: Probabilistic Model vs Original Simulation
 
 - The sampled trajectory from the transition matrix (orange) is smoother and stabilizes near a high value.
 - The original simulation (blue) shows more erratic behavior due to stochastic influences.
@@ -100,9 +86,7 @@ Plots are generated for all tasks, including:
 
 ---
 
-### 📉 Task 2A: Delay Differential Equations
-
-![Task 2A](task2a.png)
+### Task 2A: Delay Differential Equations
 
 - `m(t)` decreases exponentially as pucks are found.
 - `n_s(t)` remains mostly constant due to delay τₐ = 2.
@@ -110,19 +94,15 @@ Plots are generated for all tasks, including:
 
 ---
 
-### 🧠 Task 2B: With and Without m(80) Reset
+### Task 2B: With and Without m(80) Reset
 
 #### Normal run:
-
-![Task 2B](task2b.png)
 
 - `n_s` (searching robots) increases as others finish homing.
 - `n_h` (homing) drops after τₕ as robots return.
 - `m` (pucks) depletes steadily.
 
 #### With m(80) = 0.5 reset:
-
-![Task 2B Reset](task2b_m(80).png)
 
 - A sharp transition occurs at t = 80 due to added pucks.
 - `n_s` increases again as robots resume searching.
