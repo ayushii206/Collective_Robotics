@@ -12,7 +12,7 @@ This repository contains the implementation and analysis for **Assignment 4** of
 
 **Task C**: Estimate transition probabilities from (B), simulate a stochastic trajectory using these, and compare it to the original simulation.
 
-**Task 2A–2B**: Solve rate equations and delay differential equations to model swarm search, avoidance, and homing behaviors over time.
+**Task 2A & 2B**: Solve rate equations and delay differential equations to model swarm search, avoidance, and homing behaviors over time.
 
 ---
 
@@ -61,14 +61,6 @@ Each subtask can be executed directly via Python:
 
 ---
 
-## 📈 Does the Code Achieve the Intended Task?
-
-- ✅ Implements spontaneous switching and neighbor-based direction logic for locusts.
-- ✅ Performs dimension reduction to derive state-transition dynamics based on left-goer count.
-- ✅ Uses a large sample of simulations to approximate probabilistic transition models.
-- ✅ Simulates rate equations using Euler integration, accounting for time delays.
-- ✅ Successfully incorporates homing behavior and dynamic state transitions over time.
-
 Plots are generated for all tasks, including:
 - Number of left-goers over time (1a)
 - Transition heatmaps (1b)
@@ -77,7 +69,68 @@ Plots are generated for all tasks, including:
 
 ---
 
-## 🧠 Conceptual Notes
+## 📊 Results and Observations
+
+### 🐜 Task 1A: Left-going Locusts Over Time
+
+![Task 1A](task1a.png)
+
+- Locusts initially move randomly.
+- Clusters start to form where most locusts move in the same direction.
+- Directional consensus emerges gradually.
+- Spontaneous switching introduces noise and drift.
+
+---
+
+### 🔁 Task 1B: Transition Histogram
+
+![Task 1B](task1b.png)
+
+- The histogram shows transitions between states Lₜ → Lₜ₊₁.
+- Diagonal dominance indicates stability—most states remain near their value.
+- Spread around the diagonal suggests stochastic switching.
+
+### 🔄 Task 1C: Probabilistic Model vs Original Simulation
+
+![Task 1C](task1c.png)
+
+- The sampled trajectory from the transition matrix (orange) is smoother and stabilizes near a high value.
+- The original simulation (blue) shows more erratic behavior due to stochastic influences.
+- The reduced model captures long-term trends but misses short-term fluctuations.
+
+---
+
+### 📉 Task 2A: Delay Differential Equations
+
+![Task 2A](task2a.png)
+
+- `m(t)` decreases exponentially as pucks are found.
+- `n_s(t)` remains mostly constant due to delay τₐ = 2.
+- Early dynamics are shaped heavily by delay handling.
+
+---
+
+### 🧠 Task 2B: With and Without m(80) Reset
+
+#### Normal run:
+
+![Task 2B](task2b.png)
+
+- `n_s` (searching robots) increases as others finish homing.
+- `n_h` (homing) drops after τₕ as robots return.
+- `m` (pucks) depletes steadily.
+
+#### With m(80) = 0.5 reset:
+
+![Task 2B Reset](task2b_m(80).png)
+
+- A sharp transition occurs at t = 80 due to added pucks.
+- `n_s` increases again as robots resume searching.
+- Shows how resource reset affects robot dynamics.
+
+---
+
+## 🧠 Notes
 
 - Locusts are modeled in a periodic 1D space (`C=1`) with binary direction and spontaneous behavior.
 - Model reduction is done by aggregating across trajectories into a 2D transition histogram.
@@ -103,5 +156,6 @@ Plots are generated for all tasks, including:
 ## 👥 Contributors
 
 - [Ayushi Arora](https://github.com/ayushii206)
+- [Kamran Ali](https://github.com/kamrankhowaja)
 
 ---
