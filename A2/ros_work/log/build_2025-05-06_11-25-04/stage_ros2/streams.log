@@ -1,0 +1,67 @@
+[0.416s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --build /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2 -- -j4 -l4
+[0.493s] [ 14%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[2.322s] [ 71%] Built target stage_node
+[2.356s] [ 85%] [32m[1mLinking CXX executable stage_ros2[0m
+[3.151s] [100%] Built target stage_ros2
+[3.165s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --build /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2 -- -j4 -l4
+[3.177s] Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --install /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2
+[3.185s] -- Install configuration: ""
+[3.186s] -- Execute custom install script
+[3.186s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[3.186s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[3.187s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[3.187s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[3.187s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[3.187s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[3.188s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[3.188s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[3.189s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[3.189s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[3.189s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[3.189s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/new_map.png
+[3.189s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/new_maze.png
+[3.189s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[3.190s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[3.190s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[3.190s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[3.190s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[3.190s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave.world
+[3.190s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/hallway.world
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/lines.world
+[3.191s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/new_maze.world
+[3.192s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/straden.world
+[3.192s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/swarm10.world
+[3.192s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/swarm20.world
+[3.192s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/swarm5.world
+[3.192s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[3.193s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[3.193s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[3.193s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[3.193s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[3.193s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[3.193s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[3.194s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[3.194s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[3.194s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/libstage_node.so
+[3.194s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/stage_ros2/stage_ros2
+[3.195s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[3.195s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[3.195s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[3.195s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[3.196s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/path.sh
+[3.196s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[3.196s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.bash
+[3.196s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.sh
+[3.197s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[3.197s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[3.197s] -- Symlinking: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.dsv
+[3.208s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[3.208s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[3.208s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[3.208s] -- Up-to-date symlink: /home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.xml
+[3.212s] Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --install /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2

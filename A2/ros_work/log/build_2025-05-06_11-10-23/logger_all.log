@@ -1,0 +1,203 @@
+[0.829s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.830s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cede1ce4eb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cede1ce48e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cede1ce48e0>>, mixin_verb=('build',))
+[2.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.950s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayushi/Collective_Robotics/A2/ros_work'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['ignore', 'ignore_ament_install']
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'ignore'
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'ignore_ament_install'
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['colcon_pkg']
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'colcon_pkg'
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['colcon_meta']
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'colcon_meta'
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extensions ['ros']
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/collective_robotics) by extension 'ros'
+[3.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/collective_robotics' with type 'ros.ament_python' and name 'collective_robotics'
+[3.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[3.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[3.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[3.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ayushi/Collective_Robotics/A2/ros_work/install
+[3.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[3.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_args' from command line to 'None'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_target' from command line to 'None'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[3.484s] Level 5:colcon.colcon_core.verb:set package 'collective_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.484s] DEBUG:colcon.colcon_core.verb:Building package 'collective_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics', 'merge_install': False, 'path': '/home/ayushi/Collective_Robotics/A2/ros_work/src/collective_robotics', 'symlink_install': True, 'test_result_base': None}
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.485s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2', 'merge_install': False, 'path': '/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2', 'symlink_install': True, 'test_result_base': None}
+[3.485s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.487s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayushi/Collective_Robotics/A2/ros_work/src/collective_robotics' with build type 'ament_python'
+[3.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'ament_prefix_path')
+[3.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.ps1'
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.dsv'
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/hook/ament_prefix_path.sh'
+[3.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2' with build type 'ament_cmake'
+[3.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayushi/Collective_Robotics/A2/ros_work/src/stage_ros2'
+[3.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.092s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayushi/Collective_Robotics/A2/ros_work/src/collective_robotics'
+[4.093s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --build /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2 -- -j4 -l4
+[6.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics': PYTHONPATH=/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/build --no-deps symlink_data
+[7.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'pythonpath_develop')
+[7.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics' returned '0': PYTHONPATH=/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/build --no-deps symlink_data
+[7.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.ps1'
+[7.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.dsv'
+[7.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/build/collective_robotics/share/collective_robotics/hook/pythonpath_develop.sh'
+[7.879s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics' for CMake module files
+[7.895s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics' for CMake config files
+[8.028s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib'
+[8.030s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/bin'
+[8.032s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/pkgconfig/collective_robotics.pc'
+[8.033s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/lib/python3.10/site-packages'
+[8.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('collective_robotics', 'pythonpath')
+[8.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/hook/pythonpath.ps1'
+[8.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/hook/pythonpath.dsv'
+[8.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/hook/pythonpath.sh'
+[8.042s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/bin'
+[8.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(collective_robotics)
+[8.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/package.ps1'
+[8.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/package.dsv'
+[8.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/package.sh'
+[8.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/package.bash'
+[8.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/collective_robotics/package.zsh'
+[8.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics/share/colcon-core/packages/collective_robotics)
+[10.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --build /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2 -- -j4 -l4
+[10.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --install /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2
+[10.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[10.337s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2' for CMake module files
+[10.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayushi/Collective_Robotics/A2/ros_work/install/collective_robotics:/opt/ros/humble /usr/bin/cmake --install /home/ayushi/Collective_Robotics/A2/ros_work/build/stage_ros2
+[10.338s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2' for CMake config files
+[10.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[10.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[10.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[10.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[10.344s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib'
+[10.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[10.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[10.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[10.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[10.348s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/bin'
+[10.348s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[10.349s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/python3.10/site-packages'
+[10.349s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/bin'
+[10.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.ps1'
+[10.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.dsv'
+[10.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.sh'
+[10.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.bash'
+[10.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.zsh'
+[10.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[10.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[10.354s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2' for CMake module files
+[10.354s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2' for CMake config files
+[10.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[10.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[10.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[10.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[10.358s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib'
+[10.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[10.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[10.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[10.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[10.362s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/bin'
+[10.363s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[10.363s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/lib/python3.10/site-packages'
+[10.363s] Level 1:colcon.colcon_core.environment:checking '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/bin'
+[10.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.ps1'
+[10.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.dsv'
+[10.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.sh'
+[10.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.bash'
+[10.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/stage_ros2/package.zsh'
+[10.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayushi/Collective_Robotics/A2/ros_work/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[10.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.368s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.420s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.421s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.421s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.450s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/install/local_setup.ps1'
+[10.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayushi/Collective_Robotics/A2/ros_work/install/_local_setup_util_ps1.py'
+[10.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/install/setup.ps1'
+[10.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/install/local_setup.sh'
+[10.461s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayushi/Collective_Robotics/A2/ros_work/install/_local_setup_util_sh.py'
+[10.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/install/setup.sh'
+[10.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/install/local_setup.bash'
+[10.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/install/setup.bash'
+[10.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayushi/Collective_Robotics/A2/ros_work/install/local_setup.zsh'
+[10.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayushi/Collective_Robotics/A2/ros_work/install/setup.zsh'
