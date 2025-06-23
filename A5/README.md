@@ -13,8 +13,11 @@ This task investigates the average change in the number of left-goers (L) in a l
 - **Subtask C**: Plot fitted function and feedback probability to evaluate model accuracy
 
 **📍 Code**: See `A5/codes/A5_task1_task2.ipynb`  
+
 **📈 Output**: Plots of ΔL(L), fitted model, and feedback probability  
+
 **📄 Results**:  
+
 - ΔL(L) = 0 at stable points indicates potential equilibrium.
 - Feedback peaks when the swarm is split evenly (s = 0.5) and drops when fully aligned.
 - The model effectively captures self-organizing dynamics.
@@ -33,7 +36,7 @@ This task tests how often a swarm switches global direction depending on its siz
 - A switch is detected if the swarm goes from A → B → C or C → B → A.
 
 **📍 Code**: Continued in `A5_task1_task2.ipynb` 
- 
+
 **📈 Output**:  
 - Plot: *Average switch time vs N*  
 - Plot: *Number of switches vs N*
@@ -55,9 +58,13 @@ Implements a 2D foraging simulation using simple robots equipped with proximity,
 - Simulation runs for different swarm sizes: N ∈ {1, 2, ..., 10}
 
 **📍 Code**: `A5/codes/task3.py`  
+
 **🎥 Output Video**: `A5/output/task3/foraging_swarm_size_10.mov`  
-**📁 Logs**: Saved in `A5/output/task3/simulation_logs/`  
+
+**📁 Logs**: Saved in `A5/output/task3/simulation_logs/` 
+
 **📄 Results**:  
+
 - Performance (number of collected objects) increases with swarm size up to a point.
 - Beyond certain N, interference and congestion reduce efficiency.
 - Ideal swarm size balances coverage and coordination.
