@@ -92,14 +92,11 @@ pip install numpy matplotlib
 A5/
 ├── codes/
 │   ├── A5_task1_task2.ipynb     # Task 1 & 2 analysis and plots
-│   ├── task3.py                 # Task 3: Foraging simulation
-│   └── x.ipynb                  # Misc/experiment notebook
+│   ├── task3.py                 # Task 3: Foraging simulation 
 ├── output/
-│   ├── task1/                   # (if any)
-│   ├── task2/                   # (if any)
-│   └── task3/
-│       ├── simulation_logs/     # Foraging data logs
-│       └── foraging_swarm_size_10.mov  # Sample output video
+│   ├── task1/                   # Outputs for task1
+│   ├── task2/                   # Outputs for task2
+│   └── task3/                   # Outputs for task3
 ├── ColRob_5.pdf                 # Task sheet (Assignment 5)
 └── README.md                    # This file
 ```
