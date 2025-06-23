@@ -1,24 +1,77 @@
 # Collective Robotics – Assignment 4
 
-This repository contains the implementation and analysis for **Assignment 4** of the *Collective Robotics* course (Summer Semester 2025, Prof. Dr. Javad Ghofrani). The tasks involve **swarm behavior simulation**, **dimension reduction**, and **delay differential equation modeling** for collective robotics systems.
-
+This repository contains the implementation and analysis for **Assignment 5** of the *Collective Robotics* course (Summer Semester 2025, Prof. Dr. Javad Ghofrani). The tasks involve implementing the urn model, analyzing global switching behavior in locust swarms, and simulating foraging behavior using robot swarms.
 ---
 
 ## 📌 Task Overview
 
-**Task A**: Simulate locust behavior in a 1D ring-world, where agents switch direction based on neighbors or random chance.
+### **Task 1: Urn Model for Locust Scenario**
 
-**Task B**: Reduce the simulation to a model using only the number of left-goers, aggregate transition data, and create a 2D histogram.
+This task investigates the average change in the number of left-goers (L) in a locust swarm simulation.  
+- **Subtask A**: Simulate a swarm and record ΔL(L) over many runs  
+- **Subtask B**: Fit the swarm urn model using feedback equations to the measured ΔL(L)  
+- **Subtask C**: Plot fitted function and feedback probability to evaluate model accuracy
 
-**Task C**: Estimate transition probabilities from (B), simulate a stochastic trajectory using these, and compare it to the original simulation.
+**📍 Code**: See `A5/codes/A5_task1_task2.ipynb`  
+**📈 Output**: Plots of ΔL(L), fitted model, and feedback probability  
+**📄 Results**:  
+- ΔL(L) = 0 at stable points indicates potential equilibrium.
+- Feedback peaks when the swarm is split evenly (s = 0.5) and drops when fully aligned.
+- The model effectively captures self-organizing dynamics.
 
-**Task 2A & 2B**: Solve rate equations and delay differential equations to model swarm search, avoidance, and homing behaviors over time.
+---
+
+### **Task 2: Density-dependent Global Switching**
+
+This task tests how often a swarm switches global direction depending on its size (N ∈ [20, 150]).
+
+**Approach**:
+- Track zones based on L:  
+  - Zone A: L > 0.7N  
+  - Zone B: 0.3N ≤ L ≤ 0.7N  
+  - Zone C: L < 0.3N  
+- A switch is detected if the swarm goes from A → B → C or C → B → A.
+
+**📍 Code**: Continued in `A5_task1_task2.ipynb` 
+ 
+**📈 Output**:  
+- Plot: *Average switch time vs N*  
+- Plot: *Number of switches vs N*
+
+**📄 Observations**:  
+- Smaller swarms switch direction more frequently.
+- Larger swarms stabilize longer in a dominant direction.
+- Mimics real locust swarm dynamics as observed in biology.
+
+---
+
+### **Task 3: Foraging Simulation (PyGame)**
+
+Implements a 2D foraging simulation using simple robots equipped with proximity, bumper, and light sensors. Robots pick up objects and return them to a bright-lit home zone.
+
+**Functionality**:
+- Robots move using motor actuation.
+- They detect collisions, objects, and home zone.
+- Simulation runs for different swarm sizes: N ∈ {1, 2, ..., 10}
+
+**📍 Code**: `A5/codes/task3.py`  
+**🎥 Output Video**: `A5/output/task3/foraging_swarm_size_10.mov`  
+**📁 Logs**: Saved in `A5/output/task3/simulation_logs/`  
+**📄 Results**:  
+- Performance (number of collected objects) increases with swarm size up to a point.
+- Beyond certain N, interference and congestion reduce efficiency.
+- Ideal swarm size balances coverage and coordination.
 
 ---
 
 ## ⚙️ Requirements
 
-Install required Python packages using:
+To run Task 3 simulation, install:
+
+```bash
+pip install pygame
+```
+Other tasks require:
 
 ```bash
 pip install numpy matplotlib
@@ -26,109 +79,22 @@ pip install numpy matplotlib
 
 ---
 
-## ▶️ How to Run
-
-Each subtask can be executed directly via Python:
-
-### Task 1: Locust Swarm Simulation and Model Reduction
-
-- **Subtask A**: Locust swarm simulation with direction-switching logic  
-  ```bash
-  python task1a.py
-  ```
-
-- **Subtask B**: Transition histogram generation from 1000 runs  
-  ```bash
-  python task1b.py
-  ```
-
-- **Subtask C**: Probabilistic trajectory sampling based on transition matrix  
-  ```bash
-  python task1c.py
-  ```
-
-### Task 2: Rate Equations with Delays
-
-- **Subtask A**: Numerical solution for delay differential equations (searching & avoidance)  
-  ```bash
-  python task2a.py
-  ```
-
-- **Subtask B**: Extended model with homing state and dynamic puck reset  
-  ```bash
-  python task2b.py
-  ```
-
----
-
-## 📊 Results and Observations
-
-### Task 1A: Left-going Locusts Over Time
-
-- Locusts initially move randomly.
-- Clusters start to form where most locusts move in the same direction.
-- Directional consensus emerges gradually.
-- Spontaneous switching introduces noise and drift.
-
----
-
-### Task 1B: Transition Histogram
-
-- The histogram shows transitions between states Lₜ → Lₜ₊₁.
-- Diagonal dominance indicates stability—most states remain near their value.
-- Spread around the diagonal suggests stochastic switching.
-
-### Task 1C: Probabilistic Model vs Original Simulation
-
-- The sampled trajectory from the transition matrix (orange) is smoother and stabilizes near a high value.
-- The original simulation (blue) shows more erratic behavior due to stochastic influences.
-- The reduced model captures long-term trends but misses short-term fluctuations.
-
----
-
-### Task 2A: Delay Differential Equations
-
-- `m(t)` decreases exponentially as pucks are found.
-- `n_s(t)` remains mostly constant due to delay τₐ = 2.
-- Early dynamics are shaped heavily by delay handling.
-
----
-
-### Task 2B: With and Without m(80) Reset
-
-#### Normal run:
-
-- `n_s` (searching robots) increases as others finish homing.
-- `n_h` (homing) drops after τₕ as robots return.
-- `m` (pucks) depletes steadily.
-
-#### With m(80) = 0.5 reset:
-
-- A sharp transition occurs at t = 80 due to added pucks.
-- `n_s` increases again as robots resume searching.
-- Shows how resource reset affects robot dynamics.
-
----
-
-## 🧠 Notes
-
-- Locusts are modeled in a periodic 1D space (`C=1`) with binary direction and spontaneous behavior.
-- Model reduction is done by aggregating across trajectories into a 2D transition histogram.
-- Rate equations are delay-based, requiring manual handling of early-time conditions.
-- Homing behavior introduces a memory effect (fixed-duration τh), resetting agents back to search state.
-
----
-
 ## 📁 File Structure
 
 ```
-├── task1a.py        # Locust swarm simulation
-├── task1b.py        # Transition histogram aggregation
-├── task1c.py        # Probabilistic model trajectory generation
-├── task2a.py        # Delay differential equations (searching & avoidance)
-├── task2b.py        # Extended model with homing behavior
-├── README.md        # This file
-├── ES4_collective_robotics.pdf  # Assignment description
+A5/
+├── codes/
+│   ├── A5_task1_task2.ipynb     # Task 1 & 2 analysis and plots
+│   ├── task3.py                 # Task 3: Foraging simulation
+│   └── x.ipynb                  # Misc/experiment notebook
+├── output/
+│   ├── task1/                   # (if any)
+│   ├── task2/                   # (if any)
+│   └── task3/
+│       ├── simulation_logs/     # Foraging data logs
+│       └── foraging_swarm_size_10.mov  # Sample output video
+├── ColRob_5.pdf                 # Task sheet (Assignment 5)
+└── README.md                    # This file
 ```
 
 ---
