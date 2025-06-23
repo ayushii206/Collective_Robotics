@@ -1,4 +1,4 @@
-# Collective Robotics – Assignment 4
+# Collective Robotics – Assignment 5
 
 This repository contains the implementation and analysis for **Assignment 5** of the *Collective Robotics* course (Summer Semester 2025, Prof. Dr. Javad Ghofrani). The tasks involve implementing the urn model, analyzing global switching behavior in locust swarms, and simulating foraging behavior using robot swarms.
 ---
